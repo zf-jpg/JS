@@ -3,6 +3,6 @@ flask-cors==4.0.0
 pyodbc==5.1.0
 requests==2.31.0
 reportlab==4.0.7
-PyMuPDF==1.23.8
+pymupdf-bin==1.23.8
 PyPDF2==3.0.1
 pyecharts==2.0.4
