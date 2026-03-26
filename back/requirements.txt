@@ -3,4 +3,3 @@ flask-cors==4.0.0
 pyodbc==5.1.0
 requests==2.31.0
 reportlab==4.0.7
-pymupdf
