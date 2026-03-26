@@ -1,0 +1,1202 @@
+{
+  "草图绘制能力": {
+"zh": [
+ 
+"草图绘制能力", "绘制草图", "画草图", "快速草图", "草图设计", "手绘草图", "草图表达", "草图构思", "草图记录", "草图练习", "草图创作", "草图表现", "草图速写", "草图勾勒",
+ 
+"草图能力", "绘图技巧", "手绘技能", "草图功底", "草图水平", "草图技术", "草图质量", "草图作品", "草图集", "草图本", "草图风格",
+ 
+"擅长草图", "草图功底好", "草图流畅", "草图准确", "草图生动", "草图快速", "草图细致", "草图粗糙", "草图熟练", "草图生疏",
+ 
+"会画图", "能随手画", "画得快", "画得准", "草图画得好", "草图高手", "草图达人", "草图小白"
+],
+"en": [
+ 
+"sketching ability", "draw sketches", "create sketches", "sketch quickly", "sketch designs", "freehand sketching", "sketch ideas", "sketch out", "rough sketching", "sketch regularly",
+ 
+"sketching skills", "drawing ability", "freehand drawing", "sketch quality", "sketch portfolio", "sketchbook", "sketch style", "sketch techniques",
+ 
+"good at sketching", "skilled in drawing", "quick sketcher", "accurate sketches", "expressive sketching", "rough sketching", "proficient in sketching", "beginner at sketching"
+]
+},
+"可视化表达能力": {
+"zh": [
+ 
+"可视化表达能力", "进行可视化表达", "可视化展示", "视觉化表达", "图形表达", "图像呈现", "可视化设计", "视觉传达", "可视化说明", "可视化沟通",
+ 
+"可视化能力", "视觉表达技巧", "图形表达能力", "可视化水平", "可视化工具", "可视化效果", "可视化作品", "视觉呈现",
+ 
+"可视化表达强", "视觉表达清晰", "图形化好", "可视化生动", "可视化直观", "可视化复杂", "可视化简单",
+ 
+"会用图表表达", "视觉化好", "表达得直观", "看图说话", "视觉达人"
+],
+"en": [
+ 
+"visualization ability", "express visually", "create visualizations", "visualize data", "show visually", "design visualizations", "communicate visually", "present visually",
+ 
+"visual expression skills", "graphical representation", "visualization tools", "visual clarity", "visual impact", "visual storytelling",
+ 
+"good at visualization", "clear visual expression", "visually appealing", "intuitive visualization", "complex visualization", "simple visualization"
+]
+},
+"图形图像处理技能": {
+"zh": [
+ 
+"图形图像处理技能", "处理图形图像", "编辑图片", "修图", "图像调整", "图形设计", "图像优化", "图片处理", "图形修改", "图像合成",
+ 
+"图形处理能力", "图像编辑技能", "图片处理技巧", "图形软件使用", "图像质量", "处理效果", "图形工具", "图像作品",
+ 
+"擅长图形处理", "图像处理熟练", "修图高手", "图形处理快", "图像细节好", "处理效果自然", "处理生疏",
+ 
+"会PS", "玩转图片", "修图达人", "图片处理得好", "图形小白"
+],
+"en": [
+ 
+"graphic image processing skills", "process images", "edit graphics", "retouch photos", "adjust images", "design graphics", "optimize images", "manipulate images",
+ 
+"image editing skills", "graphic processing ability", "photo editing tools", "image quality", "processing effects", "graphic software",
+ 
+"skilled in image processing", "good at photo editing", "fast processor", "detail-oriented editing", "natural retouching", "beginner in graphics"
+]
+},
+"摄影技能": {
+"zh": [
+ 
+"摄影技能", "拍照", "摄影", "拍摄照片", "取景", "构图", "光线控制", "后期处理", "摄影创作", "记录影像",
+ 
+"摄影能力", "拍照技巧", "摄影水平", "摄影作品", "相机使用", "摄影设备", "摄影风格", "摄影经验",
+ 
+"擅长摄影", "拍照好看", "摄影技术高", "构图优美", "光线把握准", "摄影新手", "摄影老手",
+ 
+"会拍照", "拍得好", "摄影达人", "拍照高手", "摄影爱好者"
+],
+"en": [
+ 
+"photography skills", "take photos", "shoot pictures", "capture images", "compose shots", "control lighting", "edit photos", "create photography",
+ 
+"photography ability", "camera skills", "photo quality", "photography portfolio", "camera equipment", "photography style",
+ 
+"good at photography", "skilled shooter", "great composition", "lighting expert", "beginner photographer", "experienced photographer"
+]
+},
+"造型设计能力": {
+"zh": [
+ 
+"造型设计能力", "设计造型", "造型创作", "形态设计", "外形设计", "造型优化", "造型调整", "造型创新", "造型表达",
+ 
+"造型能力", "设计造型技巧", "造型水平", "造型作品", "造型风格", "造型元素", "造型美感",
+ 
+"造型设计强", "造型新颖", "造型流畅", "造型独特", "造型普通", "造型熟练", "造型生疏",
+ 
+"会设计外形", "造型好看", "造型达人", "造型高手", "造型小白"
+],
+"en": [
+ 
+"styling design ability", "design shapes", "create forms", "style products", "optimize造型", "innovate造型", "express造型",
+ 
+"styling skills", "design form ability", "styling quality", "styling portfolio", "styling elements", "aesthetic造型",
+ 
+"good at styling", "innovative造型", "sleek造型", "unique造型", "basic造型", "skilled in造型"
+]
+},
+"色彩构成能力": {
+"zh": [
+ 
+"色彩构成能力", "搭配色彩", "色彩设计", "配色", "色彩组合", "色彩调整", "色彩表达", "色彩创新", "色彩协调",
+ 
+"色彩能力", "配色技巧", "色彩水平", "色彩作品", "色彩方案", "色彩美感", "色彩理论",
+ 
+"色彩搭配好", "色彩和谐", "色彩鲜明", "色彩平淡", "色彩熟练", "色彩生疏",
+ 
+"会配色", "色彩感好", "配色达人", "色彩高手", "色彩小白"
+],
+"en": [
+ 
+"color composition ability", "combine colors", "design color schemes", "match colors", "adjust colors", "express with color", "innovate color",
+ 
+"color skills", "color matching ability", "color quality", "color portfolio", "color schemes", "color harmony",
+ 
+"good with color", "harmonious colors", "vivid colors", "dull colors", "skilled in color", "beginner in color"
+]
+},
+"平面构成能力": {
+"zh": [
+ 
+"平面构成能力", "设计平面", "平面布局", "构图", "平面表达", "平面调整", "平面创新", "平面协调",
+ 
+"平面能力", "构图技巧", "平面水平", "平面作品", "平面方案", "平面美感", "平面元素",
+ 
+"平面构成好", "布局合理", "构图优美", "平面混乱", "平面熟练", "平面生疏",
+ 
+"会排版", "平面感好", "构图达人", "平面高手", "平面小白"
+],
+"en": [
+ 
+"graphic composition ability", "design layouts", "compose graphics", "arrange elements", "adjust layouts", "innovate graphics", "coordinate planes",
+ 
+"graphic skills", "layout ability", "composition quality", "graphic portfolio", "layout schemes", "graphic harmony",
+ 
+"good at graphic composition", "balanced layout", "elegant composition", "cluttered layout", "skilled in graphics", "beginner in graphics"
+]
+},
+"立体构成能力": {
+"zh": [
+ 
+"立体构成能力", "设计立体", "立体造型", "空间构成", "立体表达", "立体调整", "立体创新", "立体协调",
+ 
+"立体能力", "空间技巧", "立体水平", "立体作品", "立体方案", "立体美感", "立体元素",
+ 
+"立体构成好", "空间感强", "立体生动", "立体平淡", "立体熟练", "立体生疏",
+ 
+"会做立体设计", "空间感好", "立体达人", "立体高手", "立体小白"
+],
+"en": [
+ 
+"3D composition ability", "design in 3D", "create spatial forms", "compose volumes", "adjust 3D", "innovate in 3D", "coordinate spaces",
+ 
+"3D skills", "spatial ability", "3D quality", "3D portfolio", "spatial schemes", "3D harmony",
+ 
+"good at 3D composition", "strong spatial sense", "dynamic 3D", "flat 3D", "skilled in 3D", "beginner in 3D"
+]
+},
+"审美能力": {
+"zh": [
+ 
+"审美能力", "审美", "鉴赏美", "评价美", "审美判断", "审美表达", "审美培养", "审美提升",
+ 
+"审美水平", "审美观", "审美标准", "审美经验", "审美品味", "审美教育",
+ 
+"审美高", "审美强", "审美独特", "审美普通", "审美敏锐", "审美迟钝",
+ 
+"有眼光", "会欣赏", "审美达人", "审美高手", "审美小白"
+],
+"en": [
+ 
+"aesthetic ability", "appreciate beauty", "judge aesthetics", "express taste", "cultivate审美", "improve审美",
+ 
+"aesthetic sense", "taste level", "aesthetic standards", "aesthetic experience", "good taste", "aesthetic education",
+ 
+"good aesthetic sense", "strong审美", "unique taste", "average审美", "keen审美", "poor审美"
+]
+},
+"美学性": {
+"zh": [
+ 
+"美学性", "追求美学", "注重美感", "美学表达", "美学设计", "美学优化", "美学创新",
+ 
+"美学水平", "美学价值", "美学特征", "美学标准", "美学元素", "美学效果",
+ 
+"美学性强", "美学高", "美学优美", "美学不足", "美学丰富", "美学简单",
+ 
+"有美感", "美学感好", "美学达人", "美学高手", "美学小白"
+],
+"en": [
+ 
+"aesthetic quality", "pursue aesthetics", "focus on beauty", "express aesthetics", "design aesthetically", "optimize aesthetics", "innovate aesthetically",
+ 
+"aesthetic level", "aesthetic value", "aesthetic features", "aesthetic standards", "aesthetic elements", "aesthetic impact",
+ 
+"high aesthetic quality", "beautiful aesthetics", "lacking aesthetics", "rich aesthetics", "simple aesthetics"
+]
+},
+"视觉吸引力": {
+"zh": [
+ 
+"视觉吸引力", "吸引视觉", "视觉吸引", "增强吸引力", "视觉吸引设计", "提升视觉吸引力", "视觉吸引表达",
+ 
+"吸引力水平", "视觉吸引效果", "吸引元素", "视觉吸引技巧", "吸引力度", "视觉吸引作品",
+ 
+"视觉吸引力强", "吸引人", "视觉吸引高", "吸引力不足", "吸引眼球", "视觉吸引平淡",
+ 
+"好看", "抢眼", "视觉达人", "吸引高手", "视觉小白"
+],
+"en": [
+ 
+"visual appeal", "attract visually", "enhance appeal", "design for appeal", "boost visual attraction", "express appeal",
+ 
+"appeal level", "visual attraction effect", "attractive elements", "appeal techniques", "appeal strength", "appeal portfolio",
+ 
+"high visual appeal", "attractive", "appealing", "low appeal", "eye-catching", "dull appeal"
+]
+},
+"风格化设计表达能力": {
+"zh": [
+ 
+"风格化设计表达能力", "表达风格", "风格化设计", "风格创作", "风格调整", "风格创新", "风格表达", "风格统一",
+ 
+"风格能力", "风格技巧", "风格水平", "风格作品", "风格元素", "风格特征", "风格一致性",
+ 
+"风格表达强", "风格独特", "风格鲜明", "风格混乱", "风格熟练", "风格生疏",
+ 
+"有风格", "风格感好", "风格达人", "风格高手", "风格小白"
+],
+"en": [
+ 
+"stylized design expression ability", "express style", "design with style", "create styles", "adjust styles", "innovate styles", "unify styles",
+ 
+"style skills", "stylistic ability", "style level", "style portfolio", "style elements", "style characteristics",
+ 
+"good at style expression", "unique style", "distinct style", "messy style", "skilled in style", "beginner in style"
+]
+},
+"用户中心设计能力": {
+"zh": [
+ 
+"用户中心设计能力", "以用户为中心设计", "关注用户", "用户导向设计", "用户需求设计", "用户友好设计", "用户参与设计", "用户反馈整合",
+ 
+"用户中心能力", "用户设计技巧", "用户水平", "用户作品", "用户方法", "用户理念", "用户体验设计",
+ 
+"用户中心强", "用户导向好", "用户友好", "用户忽略", "用户熟练", "用户生疏",
+ 
+"为用户设计", "用户感好", "用户达人", "用户高手", "用户小白"
+],
+"en": [
+ 
+"user-centered design ability", "design for users", "focus on users", "user-driven design", "incorporate user needs", "user-friendly design", "involve users", "integrate feedback",
+ 
+"user-centric skills", "user design ability", "user level", "user portfolio", "user methods", "user philosophy", "UX design",
+ 
+"good at user-centered design", "user-oriented", "user-friendly", "user-ignorant", "skilled in user design", "beginner in user design"
+]
+},
+"移情能力": {
+"zh": [
+ 
+"移情能力", "理解用户情感", " empathy", "感同身受", "情感共鸣", "情感理解", "情感表达", "情感设计",
+ 
+"移情水平", "情感能力", " empathy技巧", "情感理解力", "情感体验", "情感连接",
+ 
+"移情强", "情感理解深", " empathy高", "情感迟钝", "移情熟练", "移情生疏",
+ 
+"会换位思考", "有同理心", "移情达人", "情感高手", "情感小白"
+],
+"en": [
+ 
+"empathy ability", "understand user emotions", "empathize", "feel for others", "resonate emotionally", "express empathy", "design with empathy",
+ 
+"empathy level", "emotional ability", "empathy skills", "emotional understanding", "emotional connection", "empathy experience",
+ 
+"high empathy", "empathetic", "deep understanding", "low empathy", "skilled in empathy", "beginner in empathy"
+]
+},
+"用户参与能力": {
+"zh": [
+ 
+"用户参与能力", "让用户参与", "用户互动", "用户合作", "用户反馈收集", "用户测试", "用户工作坊", "用户共同设计",
+ 
+"用户参与水平", "参与技巧", "用户合作能力", "参与方法", "参与效果", "用户参与作品",
+ 
+"用户参与强", "互动好", "合作顺畅", "参与不足", "参与熟练", "参与生疏",
+ 
+"和用户一起设计", "用户参与度高", "参与达人", "互动高手", "参与小白"
+],
+"en": [
+ 
+"user participation ability", "involve users", "engage users", "collaborate with users", "collect feedback", "user testing", "co-design with users", "user workshops",
+ 
+"participation skills", "user engagement ability", "collaboration level", "participation methods", "engagement effects", "participation portfolio",
+ 
+"good at user participation", "high engagement", "smooth collaboration", "low participation", "skilled in participation", "beginner in participation"
+]
+},
+"用户体验关注": {
+"zh": [
+ 
+"用户体验关注", "关注用户体验", "优化用户体验", "用户体验设计", "用户体验评估", "用户体验改进", "用户体验研究", "用户体验测试",
+ 
+"用户体验水平", "关注度", "用户体验技巧", "用户体验方法", "用户体验效果", "用户体验作品",
+ 
+"用户体验关注高", "用户体验好", "用户体验流畅", "用户体验差", "关注熟练", "关注生疏",
+ 
+"重视用户体验", "用户体验感好", "体验达人", "体验高手", "体验小白"
+],
+"en": [
+ 
+"user experience focus", "focus on UX", "optimize user experience", "design for UX", "evaluate UX", "improve UX", "study UX", "test UX",
+ 
+"UX focus level", "attention to UX", "UX skills", "UX methods", "UX effects", "UX portfolio",
+ 
+"high UX focus", "good UX", "smooth UX", "poor UX", "skilled in UX", "beginner in UX"
+]
+},
+"用户研究能力": {
+"zh": [
+ 
+"用户研究能力", "研究用户", "用户调查", "用户访谈", "用户数据分析", "用户行为研究", "用户需求分析", "用户画像创建",
+ 
+"用户研究水平", "研究技巧", "用户研究方法", "研究效果", "用户研究报告", "用户研究作品",
+ 
+"用户研究强", "研究深入", "研究准确", "研究浅显", "研究熟练", "研究生疏",
+ 
+"会做用户研究", "研究用户厉害", "研究达人", "研究高手", "研究小白"
+],
+"en": [
+ 
+"user research ability", "research users", "conduct user studies", "interview users", "analyze user data", "study user behavior", "analyze needs", "create user personas",
+ 
+"user research skills", "research ability", "research methods", "research impact", "research reports", "research portfolio",
+ 
+"good at user research", "in-depth research", "accurate research", "superficial research", "skilled in research", "beginner in research"
+]
+},
+"眼动追踪分析": {
+"zh": [
+ 
+"眼动追踪分析", "分析眼动数据", "眼动追踪", "眼动研究", "眼动测试", "眼动记录", "眼动解读", "眼动应用",
+ 
+"眼动分析能力", "眼动技巧", "眼动水平", "眼动数据", "眼动工具", "眼动效果", "眼动作品",
+ 
+"眼动分析强", "眼动准确", "眼动深入", "眼动简单", "分析熟练", "分析生疏",
+ 
+"会做眼动分析", "眼动分析得好", "眼动达人", "分析高手", "眼动小白"
+],
+"en": [
+ 
+"eye-tracking analysis", "analyze eye-tracking data", "track eye movements", "study eye-tracking", "test with eye-tracking", "record eye movements", "interpret eye-tracking", "apply eye-tracking",
+ 
+"eye-tracking skills", "analysis ability", "eye-tracking level", "eye-tracking data", "eye-tracking tools", "analysis effects",
+ 
+"good at eye-tracking analysis", "accurate eye-tracking", "in-depth analysis", "basic analysis", "skilled in analysis", "beginner in analysis"
+]
+},
+"行为序列分析": {
+"zh": [
+ 
+"行为序列分析", "分析行为序列", "行为研究", "序列分析", "行为模式识别", "行为数据解读", "行为预测", "行为优化",
+ 
+"行为分析能力", "序列技巧", "分析水平", "行为数据", "分析方法", "分析效果", "分析作品",
+ 
+"行为分析强", "序列准确", "分析深入", "分析简单", "分析熟练", "分析生疏",
+ 
+"会分析行为", "行为分析得好", "分析达人", "序列高手", "行为小白"
+],
+"en": [
+ 
+"behavioral sequence analysis", "analyze behavior sequences", "study behavior", "sequence analysis", "identify patterns", "interpret behavior data", "predict behavior", "optimize behavior",
+ 
+"behavioral analysis skills", "sequence ability", "analysis level", "behavior data", "analysis methods", "analysis impact",
+ 
+"good at behavioral analysis", "accurate sequences", "in-depth analysis", "basic analysis", "skilled in analysis", "beginner in analysis"
+]
+},
+"语义网络分析": {
+"zh": [
+ 
+"语义网络分析", "分析语义网络", "语义研究", "网络分析", "语义关系识别", "语义数据解读", "语义应用", "语义优化",
+ 
+"语义分析能力", "网络技巧", "分析水平", "语义数据", "分析方法", "分析效果", "分析作品",
+ 
+"语义分析强", "网络准确", "分析深入", "分析简单", "分析熟练", "分析生疏",
+ 
+"会做语义分析", "语义分析得好", "分析达人", "网络高手", "语义小白"
+],
+"en": [
+ 
+"semantic network analysis", "analyze semantic networks", "study semantics", "network analysis", "identify semantic relations", "interpret semantic data", "apply semantics", "optimize semantics",
+ 
+"semantic analysis skills", "network ability", "analysis level", "semantic data", "analysis methods", "analysis impact",
+ 
+"good at semantic analysis", "accurate networks", "in-depth analysis", "basic analysis", "skilled in analysis", "beginner in analysis"
+]
+},
+"用户需求发现能力": {
+"zh": [
+ 
+"用户需求发现能力", "发现用户需求", "需求挖掘", "需求分析", "需求识别", "需求收集", "需求理解", "需求验证",
+ 
+"需求发现能力", "需求技巧", "需求水平", "需求数据", "需求方法", "需求效果", "需求作品",
+ 
+"需求发现强", "需求准确", "需求深入", "需求浅显", "发现熟练", "发现生疏",
+ 
+"会找用户需求", "需求发现得好", "需求达人", "发现高手", "需求小白"
+],
+"en": [
+ 
+"user needs discovery ability", "discover user needs", "dig into needs", "analyze needs", "identify needs", "collect needs", "understand needs", "validate needs",
+ 
+"needs discovery skills", "needs ability", "discovery level", "needs data", "discovery methods", "needs impact",
+ 
+"good at needs discovery", "accurate needs", "in-depth discovery", "basic discovery", "skilled in discovery", "beginner in discovery"
+]
+},
+"问题理解能力": {
+"zh": [
+ 
+"问题理解能力", "理解问题", "问题分析", "问题解读", "问题识别", "问题分解", "问题解决", "问题沟通",
+ 
+"问题理解水平", "理解技巧", "问题能力", "问题方法", "理解效果", "问题作品",
+ 
+"问题理解强", "理解深入", "理解准确", "理解肤浅", "理解熟练", "理解生疏",
+ 
+"会理解问题", "问题理解得好", "理解达人", "问题高手", "理解小白"
+],
+"en": [
+ 
+"problem understanding ability", "understand problems", "analyze problems", "interpret problems", "identify problems", "break down problems", "solve problems", "communicate problems",
+ 
+"problem understanding skills", "understanding ability", "understanding level", "problem methods", "understanding impact",
+ 
+"good at problem understanding", "deep understanding", "accurate understanding", "superficial understanding", "skilled in understanding", "beginner in understanding"
+]
+},
+"用户输入整合能力": {
+"zh": [
+ 
+"用户输入整合能力", "整合用户输入", "用户反馈整合", "输入收集", "输入分析", "输入应用", "输入优化", "输入协调",
+ 
+"输入整合能力", "整合技巧", "整合水平", "输入数据", "整合方法", "整合效果", "整合作品",
+ 
+"输入整合强", "整合顺畅", "整合准确", "整合混乱", "整合熟练", "整合生疏",
+ 
+"会整合用户意见", "整合得好", "整合达人", "输入高手", "整合小白"
+],
+"en": [
+ 
+"user input integration ability", "integrate user input", "combine feedback", "collect input", "analyze input", "apply input", "optimize input", "coordinate input",
+ 
+"input integration skills", "integration ability", "integration level", "input data", "integration methods", "integration impact",
+ 
+"good at input integration", "smooth integration", "accurate integration", "messy integration", "skilled in integration", "beginner in integration"
+]
+},
+"情感计算能力": {
+"zh": [
+ 
+"情感计算能力", "计算情感", "情感分析", "情感识别", "情感数据处理", "情感建模", "情感应用", "情感优化",
+ 
+"情感计算水平", "计算技巧", "情感能力", "计算方法", "计算效果", "计算作品",
+ 
+"情感计算强", "计算准确", "计算深入", "计算简单", "计算熟练", "计算生疏",
+ 
+"会做情感计算", "情感计算得好", "计算达人", "情感高手", "计算小白"
+],
+"en": [
+ 
+"affective computing ability", "compute emotions", "analyze emotions", "recognize emotions", "process emotional data", "model emotions", "apply affective computing", "optimize emotion analysis",
+ 
+"affective computing skills", "computing ability", "computing level", "emotional data", "computing methods", "computing impact",
+ 
+"good at affective computing", "accurate computing", "in-depth computing", "basic computing", "skilled in computing", "beginner in computing"
+]
+},
+"创意开发能力": {
+"zh": [
+ 
+"创意开发能力", "开发创意", "创意产生", "创意构思", "创意探索", "创意实现", "创意优化", "创意表达",
+ 
+"创意开发水平", "开发技巧", "创意能力", "开发方法", "开发效果", "创意作品",
+ 
+"创意开发强", "创意丰富", "创意新颖", "创意贫乏", "开发熟练", "开发生疏",
+ 
+"会想点子", "创意多", "创意达人", "开发高手", "创意小白"
+],
+"en": [
+ 
+"creative development ability", "develop ideas", "generate creativity", "brainstorm ideas", "explore creativity", "implement ideas", "optimize creativity", "express creativity",
+ 
+"creative development skills", "development ability", "development level", "creative methods", "development impact", "creative portfolio",
+ 
+"good at creative development", "rich creativity", "innovative ideas", "poor creativity", "skilled in development", "beginner in development"
+]
+},
+"创意探索能力": {
+"zh": [
+ 
+"创意探索能力", "探索创意", "创意寻找", "创意尝试", "创意实验", "创意发散", "创意深化", "创意发现",
+ 
+"创意探索水平", "探索技巧", "探索能力", "探索方法", "探索效果", "探索作品",
+ 
+"创意探索强", "探索广泛", "探索深入", "探索有限", "探索熟练", "探索生疏",
+ 
+"会探索新点子", "探索创意厉害", "探索达人", "创意高手", "探索小白"
+],
+"en": [
+ 
+"creative exploration ability", "explore ideas", "search for creativity", "try new ideas", "experiment with creativity", "diverge ideas", "deepen creativity", "discover creativity",
+ 
+"creative exploration skills", "exploration ability", "exploration level", "exploration methods", "exploration impact", "exploration portfolio",
+ 
+"good at creative exploration", "wide exploration", "in-depth exploration", "limited exploration", "skilled in exploration", "beginner in exploration"
+]
+},
+"故事板制作能力": {
+"zh": [
+ 
+"故事板制作能力", "制作故事板", "故事板设计", "故事板绘制", "故事板叙述", "故事板优化", "故事板表达", "故事板沟通",
+ 
+"故事板能力", "制作技巧", "故事板水平", "故事板作品", "故事板方法", "故事板效果",
+ 
+"故事板制作强", "故事板清晰", "故事板生动", "故事板模糊", "制作熟练", "制作生疏",
+ 
+"会做故事板", "故事板做得好", "故事板达人", "制作高手", "故事板小白"
+],
+"en": [
+ 
+"storyboard creation ability", "create storyboards", "design storyboards", "draw storyboards", "narrate with storyboards", "optimize storyboards", "express with storyboards", "communicate via storyboards",
+ 
+"storyboard skills", "creation ability", "storyboard level", "storyboard portfolio", "creation methods", "storyboard impact",
+ 
+"good at storyboard creation", "clear storyboards", "vivid storyboards", "vague storyboards", "skilled in creation", "beginner in creation"
+]
+},
+"情绪板创新性": {
+"zh": [
+ 
+"情绪板创新性", "创新情绪板", "情绪板设计", "情绪板表达", "情绪板探索", "情绪板优化", "情绪板应用", "情绪板创新",
+ 
+"情绪板能力", "创新技巧", "创新水平", "情绪板作品", "创新方法", "创新效果",
+ 
+"情绪板创新强", "创新新颖", "创新丰富", "创新不足", "创新熟练", "创新生疏",
+ 
+"会创新情绪板", "情绪板创新得好", "创新达人", "情绪板高手", "创新小白"
+],
+"en": [
+ 
+"mood board innovativeness", "innovate with mood boards", "design mood boards", "express with mood boards", "explore mood boards", "optimize mood boards", "apply mood boards", "create innovative mood boards",
+ 
+"mood board skills", "innovativeness ability", "innovation level", "mood board portfolio", "innovation methods", "innovation impact",
+ 
+"good at mood board innovation", "innovative mood boards", "rich innovation", "low innovation", "skilled in innovation", "beginner in innovation"
+]
+},
+"概念可视化能力": {
+"zh": [
+ 
+"概念可视化能力", "可视化概念", "概念表达", "概念设计", "概念图形化", "概念优化", "概念沟通", "概念实现",
+ 
+"概念可视化水平", "可视化技巧", "概念能力", "可视化方法", "可视化效果", "概念作品",
+ 
+"概念可视化强", "可视化清晰", "可视化生动", "可视化模糊", "可视化熟练", "可视化生疏",
+ 
+"会把概念画出来", "概念可视化得好", "可视化达人", "概念高手", "可视化小白"
+],
+"en": [
+ 
+"concept visualization ability", "visualize concepts", "express concepts", "design concepts", "graphicalize concepts", "optimize visualization", "communicate concepts", "implement concepts",
+ 
+"concept visualization skills", "visualization ability", "visualization level", "concept methods", "visualization impact", "concept portfolio",
+ 
+"good at concept visualization", "clear visualization", "vivid concepts", "vague visualization", "skilled in visualization", "beginner in visualization"
+]
+},
+"形式变化能力": {
+"zh": [
+ 
+"形式变化能力", "变化形式", "形式设计", "形式调整", "形式创新", "形式表达", "形式优化", "形式适应",
+ 
+"形式变化水平", "变化技巧", "形式能力", "变化方法", "变化效果", "形式作品",
+ 
+"形式变化强", "变化灵活", "变化新颖", "变化僵硬", "变化熟练", "变化生疏",
+ 
+"会变形式", "形式变化得好", "变化达人", "形式高手", "变化小白"
+],
+"en": [
+ 
+"form variation ability", "vary forms", "design forms", "adjust forms", "innovate forms", "express forms", "optimize forms", "adapt forms",
+ 
+"form variation skills", "variation ability", "variation level", "form methods", "variation impact", "form portfolio",
+ 
+"good at form variation", "flexible variation", "innovative forms", "rigid variation", "skilled in variation", "beginner in variation"
+]
+},
+"功能合成能力": {
+"zh": [
+ 
+"功能合成能力", "合成功能", "功能整合", "功能设计", "功能优化", "功能表达", "功能协调", "功能实现",
+ 
+"功能合成水平", "合成技巧", "功能能力", "合成方法", "合成效果", "功能作品",
+ 
+"功能合成强", "合成顺畅", "合成高效", "合成混乱", "合成熟练", "合成生疏",
+ 
+"会整合功能", "功能合成得好", "合成达人", "功能高手", "合成小白"
+],
+"en": [
+ 
+"function synthesis ability", "synthesize functions", "integrate functions", "design functions", "optimize functions", "express functions", "coordinate functions", "implement functions",
+ 
+"function synthesis skills", "synthesis ability", "synthesis level", "function methods", "synthesis impact", "function portfolio",
+ 
+"good at function synthesis", "smooth synthesis", "efficient synthesis", "messy synthesis", "skilled in synthesis", "beginner in synthesis"
+]
+},
+"可持续设计能力": {
+"zh": [
+ 
+"可持续设计能力", "设计可持续产品", "可持续性考虑", "环保设计", "绿色设计", "可持续优化", "可持续表达", "可持续实现",
+ 
+"可持续设计水平", "可持续技巧", "可持续能力", "可持续方法", "可持续效果", "可持续作品",
+ 
+"可持续设计强", "设计环保", "可持续性好", "可持续性差", "设计熟练", "设计生疏",
+ 
+"会做环保设计", "可持续设计得好", "可持续达人", "设计高手", "可持续小白"
+],
+"en": [
+ 
+"sustainable design ability", "design sustainably", "consider sustainability", "eco-friendly design", "green design", "optimize sustainability", "express sustainability", "implement sustainably",
+ 
+"sustainable design skills", "sustainability ability", "sustainability level", "sustainable methods", "sustainability impact", "sustainable portfolio",
+ 
+"good at sustainable design", "eco-friendly", "high sustainability", "low sustainability", "skilled in sustainable design", "beginner in sustainable design"
+]
+},
+"设计思维": {
+"zh": [
+ 
+"设计思维", "运用设计思维", "思维设计", "设计思考", "思维创新", "思维表达", "思维优化", "思维应用",
+ 
+"设计思维水平", "思维技巧", "思维能力", "思维方法", "思维效果", "思维作品",
+ 
+"设计思维强", "思维敏捷", "思维新颖", "思维僵化", "思维熟练", "思维生疏",
+ 
+"会用设计思维", "思维好", "思维达人", "思维高手", "思维小白"
+],
+"en": [
+ 
+"design thinking", "apply design thinking", "think design", "innovate with thinking", "express thinking", "optimize thinking", "use design thinking",
+ 
+"design thinking skills", "thinking ability", "thinking level", "thinking methods", "thinking impact", "thinking portfolio",
+ 
+"good at design thinking", "agile thinking", "innovative thinking", "rigid thinking", "skilled in thinking", "beginner in thinking"
+]
+},
+"问题-解决方案导航能力": {
+"zh": [
+ 
+"问题-解决方案导航能力", "导航问题解决", "问题解决引导", "方案寻找", "问题路径设计", "解决方案优化", "导航表达", "导航应用",
+ 
+"导航能力", "导航技巧", "导航水平", "导航方法", "导航效果", "导航作品",
+ 
+"导航强", "导航准确", "导航高效", "导航混乱", "导航熟练", "导航生疏",
+ 
+"会引导解决问题", "导航得好", "导航达人", "解决高手", "导航小白"
+],
+"en": [
+ 
+"problem-solution navigation ability", "navigate problem-solving", "guide solutions", "find solutions", "design solution paths", "optimize navigation", "express navigation", "apply navigation",
+ 
+"navigation skills", "navigation ability", "navigation level", "navigation methods", "navigation impact", "navigation portfolio",
+ 
+"good at navigation", "accurate navigation", "efficient navigation", "messy navigation", "skilled in navigation", "beginner in navigation"
+]
+},
+"约束移除能力": {
+"zh": [
+ 
+"约束移除能力", "移除约束", "克服限制", "约束解决", "约束优化", "约束表达", "约束创新", "约束适应",
+ 
+"约束移除水平", "移除技巧", "约束能力", "移除方法", "移除效果", "移除作品",
+ 
+"约束移除强", "移除高效", "移除灵活", "移除困难", "移除熟练", "移除生疏",
+ 
+"会去掉限制", "约束移除得好", "移除达人", "约束高手", "移除小白"
+],
+"en": [
+ 
+"constraint removal ability", "remove constraints", "overcome limitations", "solve constraints", "optimize constraints", "express constraints", "innovate around constraints", "adapt to constraints",
+ 
+"constraint removal skills", "removal ability", "removal level", "removal methods", "removal impact", "removal portfolio",
+ 
+"good at constraint removal", "efficient removal", "flexible removal", "difficult removal", "skilled in removal", "beginner in removal"
+]
+},
+"灵感领域利用": {
+"zh": [
+ 
+"灵感领域利用", "利用灵感领域", "灵感来源利用", "领域探索", "灵感应用", "领域创新", "领域表达", "领域优化",
+ 
+"灵感利用水平", "利用技巧", "领域能力", "利用方法", "利用效果", "利用作品",
+ 
+"灵感利用强", "利用广泛", "利用深入", "利用有限", "利用熟练", "利用生疏",
+ 
+"会从领域找灵感", "利用得好", "利用达人", "领域高手", "利用小白"
+],
+"en": [
+ 
+"inspiration domain utilization", "utilize inspiration domains", "use inspiration sources", "explore domains", "apply domains", "innovate with domains", "express domains", "optimize utilization",
+ 
+"domain utilization skills", "utilization ability", "utilization level", "utilization methods", "utilization impact", "utilization portfolio",
+ 
+"good at domain utilization", "wide utilization", "in-depth utilization", "limited utilization", "skilled in utilization", "beginner in utilization"
+]
+},
+"CAD与建模能力": {
+"zh": [
+ 
+"CAD与建模能力", "使用CAD", "进行建模", "CAD设计", "模型创建", "建模优化", "CAD表达", "建模应用",
+ 
+"CAD能力", "建模技巧", "建模水平", "CAD软件", "模型作品", "建模方法",
+ 
+"CAD建模强", "建模准确", "建模快速", "建模粗糙", "建模熟练", "建模生疏",
+ 
+"会用CAD", "建模厉害", "CAD达人", "建模高手", "建模小白"
+],
+"en": [
+ 
+"CAD and modeling ability", "use CAD", "create models", "design with CAD", "build models", "optimize modeling", "express with CAD", "apply modeling",
+ 
+"CAD skills", "modeling ability", "modeling level", "CAD software", "model portfolio", "modeling methods",
+ 
+"good at CAD modeling", "accurate modeling", "fast modeling", "rough modeling", "skilled in modeling", "beginner in modeling"
+]
+},
+"数字工具使用能力": {
+"zh": [
+ 
+"数字工具使用能力", "使用数字工具", "工具应用", "数字设计", "工具优化", "工具表达", "工具创新", "工具熟练使用",
+ 
+"数字工具能力", "使用技巧", "工具水平", "工具软件", "工具作品", "使用方法",
+ 
+"工具使用强", "使用熟练", "使用高效", "使用生疏", "工具多样", "工具局限",
+ 
+"会用数字工具", "工具用得好", "工具达人", "使用高手", "工具小白"
+],
+"en": [
+ 
+"digital tool usage ability", "use digital tools", "apply tools", "design digitally", "optimize tool usage", "express with tools", "innovate with tools", "master tools",
+ 
+"digital tool skills", "usage ability", "tool level", "tool software", "tool portfolio", "usage methods",
+ 
+"good at using digital tools", "proficient usage", "efficient usage", "beginner usage", "versatile tools", "limited tools"
+]
+},
+"AI辅助设计": {
+"zh": [
+ 
+"AI辅助设计", "使用AI辅助", "AI设计", "AI优化", "AI表达", "AI创新", "AI应用", "AI整合",
+ 
+"AI辅助能力", "AI技巧", "AI水平", "AI工具", "AI作品", "AI方法",
+ 
+"AI辅助强", "AI高效", "AI智能", "AI基础", "AI熟练", "AI生疏",
+ 
+"会用AI设计", "AI辅助得好", "AI达人", "AI高手", "AI小白"
+],
+"en": [
+ 
+"AI-assisted design", "use AI assistance", "design with AI", "optimize with AI", "express with AI", "innovate with AI", "apply AI", "integrate AI",
+ 
+"AI-assisted skills", "AI ability", "AI level", "AI tools", "AI portfolio", "AI methods",
+ 
+"good at AI-assisted design", "efficient AI", "smart AI", "basic AI", "skilled in AI", "beginner in AI"
+]
+},
+"数字孪生技术应用": {
+"zh": [
+ 
+"数字孪生技术应用", "应用数字孪生", "数字孪生设计", "孪生优化", "孪生表达", "孪生创新", "孪生模拟", "孪生整合",
+ 
+"数字孪生能力", "应用技巧", "孪生水平", "孪生工具", "孪生作品", "应用方法",
+ 
+"孪生应用强", "应用准确", "应用深入", "应用简单", "应用熟练", "应用生疏",
+ 
+"会用数字孪生", "孪生应用得好", "孪生达人", "应用高手", "孪生小白"
+],
+"en": [
+ 
+"digital twin technology application", "apply digital twins", "design with twins", "optimize twins", "express with twins", "innovate with twins", "simulate twins", "integrate twins",
+ 
+"digital twin skills", "application ability", "twin level", "twin tools", "twin portfolio", "application methods",
+ 
+"good at digital twin application", "accurate application", "in-depth application", "basic application", "skilled in application", "beginner in application"
+]
+},
+"材料与制造技术": {
+"zh": [
+ 
+"材料与制造技术", "使用材料", "制造技术应用", "材料选择", "制造优化", "材料表达", "制造创新", "材料制造整合",
+ 
+"材料能力", "制造技巧", "技术水平", "材料工具", "制造作品", "技术方法",
+ 
+"材料制造强", "技术熟练", "技术先进", "技术基础", "技术高效", "技术生疏",
+ 
+"懂材料制造", "技术用得好", "技术达人", "制造高手", "技术小白"
+],
+"en": [
+ 
+"materials and manufacturing technology", "use materials", "apply manufacturing tech", "select materials", "optimize manufacturing", "express with materials", "innovate manufacturing", "integrate materials",
+ 
+"materials skills", "manufacturing ability", "tech level", "materials tools", "manufacturing portfolio", "tech methods",
+ 
+"good at materials and manufacturing", "proficient tech", "advanced tech", "basic tech", "efficient tech", "beginner in tech"
+]
+},
+"可持续材料使用能力": {
+"zh": [
+ 
+"可持续材料使用能力", "使用可持续材料", "环保材料应用", "材料选择", "材料优化", "材料表达", "材料创新", "材料整合",
+ 
+"可持续材料能力", "使用技巧", "材料水平", "材料工具", "材料作品", "使用方法",
+ 
+"材料使用强", "使用环保", "使用高效", "使用局限", "使用熟练", "使用生疏",
+ 
+"会用环保材料", "材料用得好", "材料达人", "使用高手", "材料小白"
+],
+"en": [
+ 
+"sustainable materials usage ability", "use sustainable materials", "apply eco-friendly materials", "select materials", "optimize usage", "express with materials", "innovate materials", "integrate materials",
+ 
+"sustainable materials skills", "usage ability", "materials level", "materials tools", "materials portfolio", "usage methods",
+ 
+"good at sustainable materials usage", "eco-friendly usage", "efficient usage", "limited usage", "skilled in usage", "beginner in usage"
+]
+},
+"传统工艺应用能力": {
+"zh": [
+ 
+"传统工艺应用能力", "应用传统工艺", "工艺使用", "工艺设计", "工艺优化", "工艺表达", "工艺创新", "工艺整合",
+ 
+"传统工艺能力", "应用技巧", "工艺水平", "工艺工具", "工艺作品", "应用方法",
+ 
+"工艺应用强", "应用熟练", "应用传统", "应用现代", "应用高效", "应用生疏",
+ 
+"会用传统工艺", "工艺应用得好", "工艺达人", "应用高手", "工艺小白"
+],
+"en": [
+ 
+"traditional craft application ability", "apply traditional crafts", "use crafts", "design with crafts", "optimize crafts", "express with crafts", "innovate crafts", "integrate crafts",
+ 
+"traditional craft skills", "application ability", "craft level", "craft tools", "craft portfolio", "application methods",
+ 
+"good at traditional craft application", "proficient application", "traditional style", "modern application", "efficient application", "beginner in application"
+]
+},
+"手工设计能力": {
+"zh": [
+ 
+"手工设计能力", "手工设计", "手工艺", "手工制作", "手工优化", "手工表达", "手工创新", "手工整合",
+ 
+"手工能力", "设计技巧", "手工水平", "手工工具", "手工作品", "设计方法",
+ 
+"手工设计强", "手工精细", "手工独特", "手工粗糙", "手工熟练", "手工生疏",
+ 
+"会手工设计", "手工做得好", "手工达人", "设计高手", "手工小白"
+],
+"en": [
+ 
+"handmade design ability", "design by hand", "create handmade", "craft manually", "optimize handmade", "express handmade", "innovate handmade", "integrate handmade",
+ 
+"handmade skills", "design ability", "handmade level", "handmade tools", "handmade portfolio", "design methods",
+ 
+"good at handmade design", "fine handmade", "unique handmade", "rough handmade", "skilled in handmade", "beginner in handmade"
+]
+},
+"原型制作能力": {
+"zh": [
+ 
+"原型制作能力", "制作原型", "原型设计", "原型构建", "原型优化", "原型表达", "原型测试", "原型整合",
+ 
+"原型能力", "制作技巧", "原型水平", "原型工具", "原型作品", "制作方法",
+ 
+"原型制作强", "制作快速", "制作准确", "制作粗糙", "制作熟练", "制作生疏",
+ 
+"会做原型", "原型做得好", "原型达人", "制作高手", "原型小白"
+],
+"en": [
+ 
+"prototyping ability", "create prototypes", "design prototypes", "build prototypes", "optimize prototypes", "express with prototypes", "test prototypes", "integrate prototypes",
+ 
+"prototyping skills", "prototyping ability", "prototyping level", "prototyping tools", "prototype portfolio", "prototyping methods",
+ 
+"good at prototyping", "fast prototyping", "accurate prototyping", "rough prototyping", "skilled in prototyping", "beginner in prototyping"
+]
+},
+"数字原型制作能力": {
+"zh": [
+ 
+"数字原型制作能力", "制作数字原型", "数字原型设计", "数字构建", "数字优化", "数字表达", "数字测试", "数字整合",
+ 
+"数字原型能力", "制作技巧", "数字水平", "数字工具", "数字作品", "制作方法",
+ 
+"数字原型制作强", "制作高效", "制作精确", "制作简单", "制作熟练", "制作生疏",
+ 
+"会做数字原型", "数字原型做得好", "数字原型达人", "制作高手", "数字原型小白"
+],
+"en": [
+ 
+"digital prototyping ability", "create digital prototypes", "design digital prototypes", "build digitally", "optimize digital prototypes", "express digitally", "test digitally", "integrate digital prototypes",
+ 
+"digital prototyping skills", "prototyping ability", "digital level", "digital tools", "digital portfolio", "prototyping methods",
+ 
+"good at digital prototyping", "efficient prototyping", "precise prototyping", "simple prototyping", "skilled in digital prototyping", "beginner in digital prototyping"
+]
+},
+"测试与验证能力": {
+"zh": [
+ 
+"测试与验证能力", "进行测试", "验证设计", "测试优化", "验证表达", "测试创新", "验证应用", "测试整合",
+ 
+"测试能力", "验证技巧", "测试水平", "测试工具", "测试作品", "验证方法",
+ 
+"测试验证强", "测试准确", "验证可靠", "测试简单", "测试熟练", "测试生疏",
+ 
+"会测试验证", "测试做得好", "测试达人", "验证高手", "测试小白"
+],
+"en": [
+ 
+"testing and validation ability", "conduct tests", "validate designs", "optimize testing", "express validation", "innovate testing", "apply testing", "integrate testing",
+ 
+"testing skills", "validation ability", "testing level", "testing tools", "testing portfolio", "validation methods",
+ 
+"good at testing and validation", "accurate testing", "reliable validation", "basic testing", "skilled in testing", "beginner in testing"
+]
+},
+"可行性评估": {
+"zh": [
+ 
+"可行性评估", "评估可行性", "可行性分析", "可行性判断", "可行性优化", "可行性表达", "可行性创新", "可行性应用",
+ 
+"可行性能力", "评估技巧", "可行性水平", "评估工具", "评估作品", "评估方法",
+ 
+"可行性评估强", "评估准确", "评估全面", "评估简单", "评估熟练", "评估生疏",
+ 
+"会评估可行性", "评估做得好", "评估达人", "可行性高手", "评估小白"
+],
+"en": [
+ 
+"feasibility assessment", "assess feasibility", "analyze feasibility", "judge feasibility", "optimize assessment", "express feasibility", "innovate assessment", "apply assessment",
+ 
+"feasibility skills", "assessment ability", "feasibility level", "assessment tools", "assessment portfolio", "assessment methods",
+ 
+"good at feasibility assessment", "accurate assessment", "comprehensive assessment", "basic assessment", "skilled in assessment", "beginner in assessment"
+]
+},
+"设计评估能力": {
+"zh": [
+ 
+"设计评估能力", "评估设计", "设计评价", "评估优化", "评估表达", "评估创新", "评估应用", "评估整合",
+ 
+"设计评估水平", "评估技巧", "评估能力", "评估工具", "评估作品", "评估方法",
+ 
+"设计评估强", "评估客观", "评估深入", "评估主观", "评估熟练", "评估生疏",
+ 
+"会评估设计", "评估做得好", "评估达人", "设计高手", "评估小白"
+],
+"en": [
+ 
+"design evaluation ability", "evaluate designs", "assess designs", "optimize evaluation", "express evaluation", "innovate evaluation", "apply evaluation", "integrate evaluation",
+ 
+"design evaluation skills", "evaluation ability", "evaluation level", "evaluation tools", "evaluation portfolio", "evaluation methods",
+ 
+"good at design evaluation", "objective evaluation", "in-depth evaluation", "subjective evaluation", "skilled in evaluation", "beginner in evaluation"
+]
+},
+"创意评估能力": {
+"zh": [
+ 
+"创意评估能力", "评估创意", "创意评价", "评估优化", "评估表达", "评估创新", "评估应用", "评估整合",
+ 
+"创意评估水平", "评估技巧", "评估能力", "评估工具", "评估作品", "评估方法",
+ 
+"创意评估强", "评估新颖", "评估全面", "评估局限", "评估熟练", "评估生疏",
+ 
+"会评估创意", "评估做得好", "评估达人", "创意高手", "评估小白"
+],
+"en": [
+ 
+"creative evaluation ability", "evaluate creativity", "assess ideas", "optimize evaluation", "express evaluation", "innovate evaluation", "apply evaluation", "integrate evaluation",
+ 
+"creative evaluation skills", "evaluation ability", "evaluation level", "evaluation tools", "evaluation portfolio", "evaluation methods",
+ 
+"good at creative evaluation", "innovative evaluation", "comprehensive evaluation", "limited evaluation", "skilled in evaluation", "beginner in evaluation"
+]
+},
+"功能性评估": {
+"zh": [
+ 
+"功能性评估", "评估功能", "功能评价", "评估优化", "评估表达", "评估创新", "评估应用", "评估整合",
+ 
+"功能性评估水平", "评估技巧", "评估能力", "评估工具", "评估作品", "评估方法",
+ 
+"功能性评估强", "评估准确", "评估可靠", "评估简单", "评估熟练", "评估生疏",
+ 
+"会评估功能", "评估做得好", "评估达人", "功能高手", "评估小白"
+],
+"en": [
+ 
+"functional assessment", "assess functionality", "evaluate functions", "optimize assessment", "express functionality", "innovate assessment", "apply assessment", "integrate assessment",
+ 
+"functional assessment skills", "assessment ability", "assessment level", "assessment tools", "assessment portfolio", "assessment methods",
+ 
+"good at functional assessment", "accurate assessment", "reliable assessment", "basic assessment", "skilled in assessment", "beginner in assessment"
+]
+},
+"安全能力评估": {
+"zh": [
+ 
+"安全能力评估", "评估安全", "安全评价", "评估优化", "评估表达", "评估创新", "评估应用", "评估整合",
+ 
+"安全评估水平", "评估技巧", "评估能力", "评估工具", "评估作品", "评估方法",
+ 
+"安全评估强", "评估全面", "评估可靠", "评估不足", "评估熟练", "评估生疏",
+ 
+"会评估安全", "评估做得好", "安全达人", "评估高手", "安全小白"
+],
+"en": [
+ 
+"safety assessment", "assess safety", "evaluate security", "optimize assessment", "express safety", "innovate assessment", "apply assessment", "integrate assessment",
+ 
+"safety assessment skills", "assessment ability", "assessment level", "assessment tools", "assessment portfolio", "assessment methods",
+ 
+"good at safety assessment", "comprehensive assessment", "reliable assessment", "inadequate assessment", "skilled in assessment", "beginner in assessment"
+]
+},
+"演示技能": {
+"zh": [
+ 
+"演示技能", "进行演示", "演示设计", "演示表达", "演示优化", "演示创新", "演示应用", "演示沟通",
+ 
+"演示能力", "演示技巧", "演示水平", "演示工具", "演示作品", "演示方法",
+ 
+"演示技能强", "演示清晰", "演示生动", "演示模糊", "演示熟练", "演示生疏",
+ 
+"会做演示", "演示做得好", "演示达人", "演示高手", "演示小白"
+],
+"en": [
+ 
+"presentation skills", "give presentations", "design presentations", "express presentations", "optimize presentations", "innovate presentations", "apply presentations", "communicate via presentations",
+ 
+"presentation ability", "presentation skills", "presentation level", "presentation tools", "presentation portfolio", "presentation methods",
+ 
+"good at presentations", "clear presentations", "vivid presentations", "vague presentations", "skilled in presentations", "beginner in presentations"
+]
+},
+"展示沟通能力": {
+"zh": [
+ 
+"展示沟通能力", "展示并沟通", "沟通展示", "展示表达", "沟通优化", "展示创新", "沟通应用", "展示整合",
+ 
+"展示沟通水平", "沟通技巧", "展示能力", "沟通工具", "展示作品", "沟通方法",
+ 
+"展示沟通强", "沟通顺畅", "展示清晰", "沟通困难", "沟通熟练", "沟通生疏",
+ 
+"会展示沟通", "沟通做得好", "沟通达人", "展示高手", "沟通小白"
+],
+"en": [
+ 
+"display and communication ability", "display and communicate", "communicate displays", "express displays", "optimize communication", "innovate communication", "apply communication", "integrate displays",
+ 
+"display communication skills", "communication ability", "communication level", "communication tools", "display portfolio", "communication methods",
+ 
+"good at display communication", "smooth communication", "clear displays", "difficult communication", "skilled in communication", "beginner in communication"
+]
+},
+"术语运用能力": {
+"zh": [
+ 
+"术语运用能力", "运用术语", "术语使用", "术语表达", "术语优化", "术语创新", "术语应用", "术语整合",
+ 
+"术语能力", "运用技巧", "术语水平", "术语工具", "术语作品", "运用方法",
+ 
+"术语运用强", "运用准确", "运用流畅", "运用生硬", "运用熟练", "运用生疏",
+ 
+"会用术语", "术语用得好", "术语达人", "运用高手", "术语小白"
+],
+"en": [
+ 
+"terminology usage ability", "use terminology", "apply terms", "express with terminology", "optimize usage", "innovate terminology", "apply terminology", "integrate terminology",
+ 
+"terminology skills", "usage ability", "terminology level", "terminology tools", "terminology portfolio", "usage methods",
+ 
+"good at terminology usage", "accurate usage", "fluent usage", "awkward usage", "skilled in terminology", "beginner in terminology"
+]
+},
+"跨模态理解能力": {
+"zh": [
+ 
+"跨模态理解能力", "理解跨模态", "多模态理解", "模态整合", "理解表达", "理解优化", "理解创新", "理解应用",
+ 
+"跨模态能力", "理解技巧", "理解水平", "模态工具", "理解作品", "理解方法",
+ 
+"跨模态理解强", "理解全面", "理解深入", "理解局限", "理解熟练", "理解生疏",
+ 
+"会理解多模态", "理解做得好", "理解达人", "模态高手", "理解小白"
+],
+"en": [
+ 
+"cross-modal understanding ability", "understand cross-modal", "comprehend multi-modal", "integrate modalities", "express understanding", "optimize understanding", "innovate understanding", "apply understanding",
+ 
+"cross-modal skills", "understanding ability", "understanding level", "modal tools", "understanding portfolio", "understanding methods",
+ 
+"good at cross-modal understanding", "comprehensive understanding", "in-depth understanding", "limited understanding", "skilled in understanding", "beginner in understanding"
+]
+},
+"设计伦理思考": {
+"zh": [
+ 
+"设计伦理思考", "思考设计伦理", "伦理考虑", "伦理表达", "伦理优化", "伦理创新", "伦理应用", "伦理整合",
+ 
+"伦理能力", "思考技巧", "伦理水平", "伦理工具", "伦理作品", "思考方法",
+ 
+"伦理思考强", "思考深入", "思考全面", "思考浅显", "思考熟练", "思考生疏",
+ 
+"会思考伦理", "伦理思考得好", "伦理达人", "思考高手", "伦理小白"
+],
+"en": [
+ 
+"design ethics thinking", "think about design ethics", "consider ethics", "express ethics", "optimize ethics", "innovate ethics", "apply ethics", "integrate ethics",
+ 
+"ethics skills", "thinking ability", "ethics level", "ethics tools", "ethics portfolio", "thinking methods",
+ 
+"good at design ethics thinking", "deep thinking", "comprehensive ethics", "superficial thinking", "skilled in ethics", "beginner in ethics"
+]
+},
+"环境效益能力": {
+"zh": [
+ 
+"环境效益能力", "考虑环境效益", "环境优化", "效益表达", "效益创新", "效益应用", "效益整合", "环境设计",
+ 
+"环境效益水平", "效益技巧", "环境能力", "效益工具", "效益作品", "效益方法",
+ 
+"环境效益强", "效益显著", "效益可持续", "效益不足", "效益熟练", "效益生疏",
+ 
+"会考虑环境", "环境效益做得好", "环境达人", "效益高手", "环境小白"
+],
+"en": [
+ 
+"environmental benefit ability", "consider environmental benefits", "optimize environment", "express benefits", "innovate benefits", "apply benefits", "integrate benefits", "design for environment",
+ 
+"environmental benefit skills", "benefit ability", "benefit level", "benefit tools", "benefit portfolio", "benefit methods",
+ 
+"good at environmental benefits", "significant benefits", "sustainable benefits", "insufficient benefits", "skilled in benefits", "beginner in benefits"
+]
+},
+"文化自信能力": {
+"zh": [
+ 
+"文化自信能力", "表达文化自信", "文化考虑", "自信表达", "文化优化", "文化创新", "文化应用", "文化整合",
+ 
+"文化自信水平", "自信技巧", "文化能力", "自信工具", "文化作品", "自信方法",
+ 
+"文化自信强", "自信充分", "文化独特", "自信不足", "自信熟练", "自信生疏",
+ 
+"会有文化自信", "文化自信做得好", "文化达人", "自信高手", "文化小白"
+],
+"en": [
+ 
+"cultural confidence ability", "express cultural confidence", "consider culture", "optimize confidence", "innovate culture", "apply culture", "integrate culture", "design with culture",
+ 
+"cultural confidence skills", "confidence ability", "confidence level", "confidence tools", "cultural portfolio", "confidence methods",
+ 
+"good at cultural confidence", "strong confidence", "unique culture", "low confidence", "skilled in culture", "beginner in culture"
+]
+},
+"社会效益评估能力": {
+"zh": [
+ 
+"社会效益评估能力", "评估社会效益", "社会考虑", "效益表达", "评估优化", "评估创新", "评估应用", "评估整合",
+ 
+"社会效益评估水平", "评估技巧", "社会能力", "评估工具", "评估作品", "评估方法",
+ 
+"社会效益评估强", "评估全面", "评估准确", "评估不足", "评估熟练", "评估生疏",
+ 
+"会评估社会效益", "评估做得好", "社会达人", "评估高手", "社会小白"
+],
+"en": [
+ 
+"social benefit assessment ability", "assess social benefits", "consider society", "express benefits", "optimize assessment", "innovate assessment", "apply assessment", "integrate assessment",
+ 
+"social benefit assessment skills", "assessment ability", "assessment level", "assessment tools", "assessment portfolio", "assessment methods",
+ 
+"good at social benefit assessment", "comprehensive assessment", "accurate assessment", "inadequate assessment", "skilled in assessment", "beginner in assessment"
+]
+}
+}

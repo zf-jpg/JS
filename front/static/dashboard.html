@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>专利预警分析系统数据大屏</title>
+  <script src="js/jquery.js"></script>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <canvas id="particles-canvas"></canvas>
+
+  <div class="loading">
+    <div class="loadbox"><img src="images/loading.gif">页面加载中...</div>
+  </div>
+
+  <!-- 顶部标题栏 -->
+  <div class="head">
+    <div class="update-panel">
+      <button id="btn-update-latest" class="update-btn" type="button">一键更新</button>
+      <span id="update-status" class="update-status">待命</span>
+    </div>
+    <h1>专利预警分析系统数据大屏</h1>
+    <div class="time" id="showTime"></div>
+  </div>
+
+  <!-- 主内容 -->
+  <div class="mainbox">
+    <div class="main-grid">
+
+      <!-- ===== 左栏 ===== -->
+      <div class="col col-left">
+
+        <!-- 左-1: KPI 三格 -->
+        <div class="card kpi-row">
+          <div class="kpi-item">
+            <img src="images/icon1.png">
+            <div><span class="kpi-label">专利总量</span><span class="kpi-value" id="kpi-patents">--</span></div>
+          </div>
+          <div class="kpi-item">
+            <img src="images/icon7.png">
+            <div><span class="kpi-label">预警总数</span><span class="kpi-value" id="kpi-alerts">--</span></div>
+          </div>
+          <div class="kpi-item">
+            <img src="images/icon8.png">
+            <div><span class="kpi-label">平均风险分</span><span class="kpi-value" id="kpi-avgscore">--</span></div>
+          </div>
+        </div>
+
+        <!-- 左-2: 风险分布 -->
+        <div class="card" style="flex:1.4">
+          <div class="card-title">风险等级分布</div>
+          <div class="risk-bars">
+            <div class="risk-bar-item">
+              <span class="risk-label" style="color:#ff4d4f">高风险</span>
+              <div class="risk-bar-track"><div class="risk-bar-fill" id="bar-high" style="width:0%;background:linear-gradient(90deg,#ff4d4f,#ff7875)"></div></div>
+              <span class="risk-count" id="count-high">--</span>
+            </div>
+            <div class="risk-bar-item">
+              <span class="risk-label" style="color:#faad14">中风险</span>
+              <div class="risk-bar-track"><div class="risk-bar-fill" id="bar-mid" style="width:0%;background:linear-gradient(90deg,#faad14,#ffd666)"></div></div>
+              <span class="risk-count" id="count-mid">--</span>
+            </div>
+            <div class="risk-bar-item">
+              <span class="risk-label" style="color:#52c41a">低风险</span>
+              <div class="risk-bar-track"><div class="risk-bar-fill" id="bar-low" style="width:0%;background:linear-gradient(90deg,#52c41a,#95de64)"></div></div>
+              <span class="risk-count" id="count-low">--</span>
+            </div>
+          </div>
+          <div class="risk-pie-row">
+            <div><div class="tit01" style="color:#ff4d4f">高风险</div><div class="piebox" id="pe01"></div></div>
+            <div><div class="tit01" style="color:#faad14">中风险</div><div class="piebox" id="pe02"></div></div>
+            <div><div class="tit01" style="color:#52c41a">低风险</div><div class="piebox" id="pe03"></div></div>
+          </div>
+        </div>
+
+        <!-- 左-3: 近12月趋势折线 -->
+        <div class="card" style="flex:2">
+          <div class="card-title">近12月专利预警趋势</div>
+          <div class="chart-box" id="echarts3"></div>
+        </div>
+
+      </div>
+
+      <!-- ===== 中栏 ===== -->
+      <div class="col col-mid">
+
+        <!-- 中-1: 三个大数字 -->
+        <div class="card kpi-center-row">
+          <div class="center-kpi">
+            <div class="center-kpi-num" id="kpi-recent">--</div>
+            <div class="center-kpi-label">7日新增预警</div>
+          </div>
+          <div class="center-kpi">
+            <div class="center-kpi-num yellow" id="kpi-keywords">--</div>
+            <div class="center-kpi-label">监控关键词数</div>
+          </div>
+          <div class="center-kpi">
+            <div class="center-kpi-num green" id="kpi-pdfs">--</div>
+            <div class="center-kpi-label">PDF文档数</div>
+          </div>
+        </div>
+
+        <!-- 中-2: 月度柱状图 -->
+        <div class="card" style="flex:2.2">
+          <div class="card-title">月度专利申请量（近12月）</div>
+          <div class="chart-box" id="echarts1"></div>
+        </div>
+
+        <!-- 中-3: 关键词分布饼图 -->
+        <div class="card" style="flex:2">
+          <div class="card-title">关键词专利数量分布</div>
+          <div class="chart-box" id="echarts2"></div>
+        </div>
+
+      </div>
+
+      <!-- ===== 右栏 ===== -->
+      <div class="col col-right">
+
+        <!-- 右-1: KPI 三格 -->
+        <div class="card kpi-row">
+          <div class="kpi-item">
+            <img src="images/icon4.png">
+            <div><span class="kpi-label">高风险专利</span><span class="kpi-value red" id="kpi-high">--</span></div>
+          </div>
+          <div class="kpi-item">
+            <img src="images/icon5.png">
+            <div><span class="kpi-label">中风险专利</span><span class="kpi-value yellow" id="kpi-mid">--</span></div>
+          </div>
+          <div class="kpi-item">
+            <img src="images/icon6.png">
+            <div><span class="kpi-label">低风险专利</span><span class="kpi-value green" id="kpi-low">--</span></div>
+          </div>
+        </div>
+
+        <!-- 右-2: 申请人风险条形图 -->
+        <div class="card" style="flex:2">
+          <div class="card-title">TOP威胁申请人风险评分</div>
+          <div class="chart-box" id="lastecharts"></div>
+        </div>
+
+        <!-- 右-3: 申请人排行榜 -->
+        <div class="card" style="flex:2.2">
+          <div class="card-title">关键词专利量排行榜</div>
+          <div class="paim chart-box" id="paim-list"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // 兜底：最多等2秒，强制隐藏loading
+    setTimeout(function(){
+      var el=document.querySelector('.loading');
+      if(el){ el.style.display='none'; }
+    }, 2000);
+  </script>
+  <script type="text/javascript" src="js/echarts.min.js"></script>
+  <script type="text/javascript" src="js/dashboard_charts.js"></script>
+</body>
+</html>

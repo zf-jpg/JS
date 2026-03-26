@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>警哨 - 专利预警系统</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js with fallback CDN sources -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script>
+        // 初始化Chart.js加载状态
+        window.chartJSStatus = 'loading'; // loading, loaded, failed
+        
+        // 尝试多个CDN源加载Chart.js
+        (function() {
+            const chartJsSources = [
+                'https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js',
+                'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js',
+                'https://unpkg.com/chart.js@4.4.1/dist/chart.umd.min.js'
+            ];
+            
+            let loaded = false;
+            let timeoutId = null;
+            
+            function loadChartJS(index) {
+                if (loaded) return; // 已经加载成功，不再尝试
+                
+                if (index >= chartJsSources.length) {
+                    // 所有源都失败了
+                    window.chartJSStatus = 'failed';
+                    console.error('所有Chart.js CDN源均加载失败');
+                    if (typeof window.onChartJSLoadFailed === 'function') {
+                        window.onChartJSLoadFailed();
+                    }
+                    // 触发自定义事件
+                    window.dispatchEvent(new CustomEvent('chartjsloadfailed'));
+                    return;
+                }
+                
+                const script = document.createElement('script');
+                script.src = chartJsSources[index];
+                script.async = true;
+                script.crossOrigin = 'anonymous';
+                
+                // 设置超时（10秒）
+                timeoutId = setTimeout(function() {
+                    if (!loaded && script.parentNode) {
+                        script.parentNode.removeChild(script);
+                        console.warn('Chart.js 加载超时，尝试下一个源');
+                        loadChartJS(index + 1);
+                    }
+                }, 10000);
+                
+                script.onload = function() {
+                    if (loaded) return; // 防止重复触发
+                    loaded = true;
+                    window.chartJSStatus = 'loaded';
+                    if (timeoutId) clearTimeout(timeoutId);
+                    console.log('Chart.js 加载成功，来源:', chartJsSources[index]);
+                    if (typeof window.onChartJSLoaded === 'function') {
+                        window.onChartJSLoaded();
+                    }
+                    // 触发自定义事件
+                    window.dispatchEvent(new CustomEvent('chartjsloaded'));
+                };
+                
+                script.onerror = function() {
+                    if (loaded) return; // 防止重复触发
+                    if (timeoutId) clearTimeout(timeoutId);
+                    if (script.parentNode) {
+                        script.parentNode.removeChild(script);
+                    }
+                    console.warn('Chart.js CDN源加载失败，尝试下一个:', chartJsSources[index]);
+                    loadChartJS(index + 1);
+                };
+                
+                document.head.appendChild(script);
+            }
+            
+            // 开始加载
+            loadChartJS(0);
+        })();
+    </script>
+</head>
+<body>
+    <!-- 左侧导航栏 -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='logo.png') }}" alt="警哨" class="logo-img">
+                <h1 class="logo-text">警哨</h1>
+            </div>
+            <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+        <nav class="sidebar-nav">
+            <button class="nav-btn active" data-tab="statistics">
+                <i class="fas fa-chart-bar"></i>
+                <span class="nav-text">数据统计</span>
+            </button>
+            <button class="nav-btn" data-tab="alerts">
+                <i class="fas fa-shield-alt"></i>
+                <span class="nav-text">预警分析</span>
+            </button>
+            <button class="nav-btn" data-tab="tag">
+                <i class="fas fa-tags"></i>
+                <span class="nav-text">标签热度</span>
+            </button>
+            <button class="nav-btn" data-tab="patents">
+                <i class="fas fa-file-alt"></i>
+                <span class="nav-text">相关专利</span>
+            </button>
+            <button class="nav-btn" data-tab="dashboard">
+                <i class="fas fa-chart-line"></i>
+                <span class="nav-text">数据大屏</span>
+            </button>
+        </nav>
+        <div class="sidebar-stats">
+            <div class="sidebar-stat-item">
+                <i class="fas fa-file-alt"></i>
+                <div class="stat-content">
+                    <span class="stat-label">专利总数</span>
+                    <strong id="sidebarTotalPatents">-</strong>
+                </div>
+            </div>
+            <div class="sidebar-stat-item warn">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div class="stat-content">
+                    <span class="stat-label">预警总数</span>
+                    <strong id="sidebarTotalAlerts">-</strong>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- 主内容区域 -->
+    <div class="main-wrapper" id="mainWrapper">
+        <!-- 顶部导航栏 -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-title">
+                    <h2 id="currentPageTitle"><i class="fas fa-chart-bar"></i> 数据统计</h2>
+                </div>
+                <div class="header-stats" id="headerStats">
+                    <div class="stat-item pill">
+                        <i class="fas fa-file-alt"></i>
+                        <span>专利总数: <strong id="totalPatents">-</strong></span>
+                    </div>
+                    <div class="stat-item pill warn">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>预警总数: <strong id="totalAlerts">-</strong></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+
+            <!-- 数据统计模块 -->
+            <div class="tab-content active" id="statistics-tab">
+                <div class="keyword-panel">
+                    <div class="keyword-header">
+                        <div>
+                            <h3><i class="fas fa-key"></i> 关键词获取</h3>
+                            <p class="sub-text">输入关键词，一键获取并自动执行预警分析，结果写入数据库后刷新统计。</p>
+                        </div>
+                        <div class="keyword-form">
+                            <!-- 第一行：输入框 -->
+                            <div class="input-row">
+                                <input type="text" id="crawlKeywordInput" placeholder="输入关键词后回车或点击开始获取">
+                                <input type="text" id="keywordCategoryInput" placeholder="分类（公司/人名/通用/日期等，可选）">
+                            </div>
+                            <!-- 第二行：按钮 -->
+                            <div class="button-row">
+                                <button class="action-btn" id="crawlKeywordBtn" onclick="triggerCrawl()">
+                                    <i class="fas fa-play"></i> 开始获取
+                                </button>
+                                <button class="action-btn danger" id="crawlStopBtn" onclick="stopCrawl()" disabled>
+                                    <i class="fas fa-stop-circle"></i> 结束获取
+                                </button>
+                            </div>
+                            <!-- 第三行：筛选器 -->
+                            <div class="filter-row">
+                                <div class="keyword-select-wrapper">
+                                    <select id="keywordCategoryFilter" class="keyword-select">
+                                        <option value="">全部分类</option>
+                                    </select>
+                                    <select id="keywordFilter" class="keyword-select">
+                                        <option value="">全部关键词</option>
+                                    </select>
+                                </div>
+                                <button class="delete-keyword-btn" id="deleteKeywordBtn" onclick="deleteKeyword()" title="删除选中的关键词及其所有相关数据" disabled>
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </div>
+                            <!-- 第四行：状态文本 -->
+                            <span class="status-text" id="crawlStatus"></span>
+                            <!-- 第五行：进度条 -->
+                            <div id="crawlProgressWrapper" class="progress-wrapper">
+                                <div class="progress-bar-container">
+                                    <div id="crawlProgressBar" class="progress-bar-fill"></div>
+                                </div>
+                                <div class="progress-text">
+                                    进度：<span id="crawlProgressText">0%</span>（按 60 页折算 100%）
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 操作按钮区域 -->
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-pie"></i> 数据统计</h2>
+                    <div class="section-actions">
+                        <button class="refresh-btn" onclick="loadStatistics()">
+                            <i class="fas fa-sync-alt"></i> 刷新数据
+                        </button>
+                        <button class="refresh-btn primary" id="runAnalysisBtn" onclick="runAnalysis()">
+                            <i class="fas fa-play"></i> 一键运行分析
+                        </button>
+                        <button class="refresh-btn primary" id="downloadReportBtn" onclick="downloadReport()">
+                            <i class="fas fa-file-pdf"></i> 下载风险报告
+                        </button>
+                        <button class="refresh-btn accent" id="updateCompanyBtn" onclick="triggerUpdate(true)">
+                            <i class="fas fa-industry"></i> 更新公司类别
+                        </button>
+                        <button class="refresh-btn danger" id="stopCompanyUpdateBtn" onclick="stopUpdate(true)" disabled>
+                            <i class="fas fa-stop-circle"></i> 停止公司更新
+                        </button>
+                        <button class="refresh-btn accent" id="updateAllBtn" onclick="triggerUpdate(false)">
+                            <i class="fas fa-globe"></i> 更新全部关键词
+                        </button>
+                        <button class="refresh-btn danger" id="stopAllUpdateBtn" onclick="stopUpdate(false)" disabled>
+                            <i class="fas fa-stop-circle"></i> 停止全部更新
+                        </button>
+                    </div>
+                </div>
+
+                <div class="charts-row">
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-chart-line"></i> 近40天预警趋势</h3>
+                        </div>
+                        <canvas id="alertsLineChart" height="320"></canvas>
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-chart-bar"></i> 风险等级分布趋势</h3>
+                        </div>
+                        <canvas id="riskPieChart" height="320"></canvas>
+                    </div>
+                </div>
+
+                <div class="stats-chips">
+                    <div class="chip keyword-chip">
+                        <i class="fas fa-filter"></i>
+                        <span id="chipKeyword">全部关键词</span>
+                    </div>
+                    <div class="chip high-chip">
+                        <span class="dot"></span> 高 <span id="chipHigh">-</span>
+                    </div>
+                    <div class="chip mid-chip">
+                        <span class="dot"></span> 中 <span id="chipMid">-</span>
+                    </div>
+                    <div class="chip low-chip">
+                        <span class="dot"></span> 低 <span id="chipLow">-</span>
+                    </div>
+                </div>
+
+                <div class="stats-grid" id="statisticsGrid">
+                    <div class="stat-card">
+                        <div class="stat-icon blue">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>专利总数</h3>
+                            <p class="stat-value" id="statTotalPatents">-</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon red">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>预警总数</h3>
+                            <p class="stat-value" id="statTotalAlerts">-</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon orange">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>平均风险分数</h3>
+                            <p class="stat-value" id="statAvgScore">-</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon green">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>PDF文件总数</h3>
+                            <p class="stat-value" id="statTotalPdfs">-</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon purple">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>最近7天预警</h3>
+                            <p class="stat-value" id="statRecentAlerts">-</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon red">
+                            <i class="fas fa-shield-halved"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>高风险数量</h3>
+                            <p class="stat-value" id="statHighAlerts">-</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon orange">
+                            <i class="fas fa-circle-notch"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>中风险数量</h3>
+                            <p class="stat-value" id="statMidAlerts">-</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon green">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>低风险数量</h3>
+                            <p class="stat-value" id="statLowAlerts">-</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h3><i class="fas fa-table"></i> 风险等级分布</h3>
+                    <div class="risk-distribution" id="riskDistribution"></div>
+                </div>
+            </div>
+
+            <!-- 专利数据爬取模块 -->
+            <div class="tab-content" id="patents-tab">
+                <div class="section-header">
+                    <h2><i class="fas fa-file-alt"></i> 相关专利</h2>
+                    <div class="search-box">
+                        <input type="text" id="patentSearch" placeholder="搜索专利标题、申请人或摘要...">
+                        <button onclick="searchPatents()"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                
+                <div class="data-table-container">
+                    <table class="data-table" id="patentsTable">
+                        <colgroup>
+                            <col style="width: 60px;">
+                            <col style="width: 25%;">
+                            <col style="width: 20%;">
+                            <col style="width: 120px;">
+                            <col style="width: 100px;">
+                            <col style="width: 100px;">
+                            <col style="width: 90px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>专利标题</th>
+                                <th>申请人</th>
+                                <th>公开号</th>
+                                <th>公开日</th>
+                                <th>申请日</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="patentsTableBody">
+                            <tr>
+                                <td colspan="7" class="loading">正在加载数据...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination" id="patentsPagination"></div>
+            </div>
+
+            <!-- 预警分析模块 -->
+            <div class="tab-content" id="alerts-tab">
+                <div class="section-header">
+                    <h2><i class="fas fa-exclamation-circle"></i> 预警分析结果</h2>
+                    <div class="filter-group">
+                        <select id="riskLevelFilter" onchange="filterAlerts()">
+                            <option value="">全部风险等级</option>
+                            <option value="高">高风险</option>
+                            <option value="中">中风险</option>
+                            <option value="低">低风险</option>
+                        </select>
+                        <div class="search-box">
+                            <input type="text" id="alertSearch" placeholder="搜索预警信息...">
+                            <button onclick="searchAlerts()"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="data-table-container">
+                    <table class="data-table" id="alertsTable">
+                        <colgroup>
+                            <col style="width: 80px;">
+                            <col style="width: 90px;">
+                            <col style="width: 18%;">
+                            <col style="width: 14%;">
+                            <col style="width: 22%;">
+                            <col style="width: 70px;">
+                            <col style="width: 110px;">
+                            <col style="width: 80px;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>风险等级</th>
+                                <th>风险分数</th>
+                                <th>专利标题</th>
+                                <th>申请人</th>
+                                <th>风险标签</th>
+                                <th>置信度</th>
+                                <th>更新时间</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="alertsTableBody">
+                            <tr>
+                                <td colspan="8" class="loading">正在加载数据...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="pagination" id="alertsPagination"></div>
+            </div>
+
+            <!-- 标签热度模块 -->
+            <div class="tab-content" id="tag-tab">
+                <div class="section-header">
+                    <h2><i class="fas fa-fire"></i> 标签热度 & 关联</h2>
+                    <div class="filter-group">
+                        <div class="search-box">
+                            <input type="text" id="tagSearch" placeholder="搜索专利标题或案卷号...">
+                            <button onclick="searchTagResults()"><i class="fas fa-search"></i></button>
+                        </div>
+                        <select id="coGraphSelect" class="keyword-select" style="min-width: 220px;">
+                            <option value="">请选择共现图谱</option>
+                        </select>
+                        <button class="refresh-btn" onclick="loadCooccurrenceGraphs()" title="刷新图谱列表">
+                            <i class="fas fa-rotate"></i>
+                        </button>
+                        <button class="refresh-btn accent" onclick="openCooccurrenceGraph()">
+                            <i class="fas fa-project-diagram"></i> 打开选中图谱
+                        </button>
+                    </div>
+                </div>
+
+                <div class="chips-row" id="tagSummaryChips">
+                    <div class="chip">
+                        <i class="fas fa-clock"></i>
+                        <span id="tagGeneratedAt">--</span>
+                    </div>
+                    <div class="chip high-chip">
+                        <span class="dot"></span> 热门标签 <span id="tagHotCount">-</span>
+                    </div>
+                    <div class="chip low-chip">
+                        <span class="dot"></span> 冷门标签 <span id="tagColdCount">-</span>
+                    </div>
+                </div>
+
+                <div class="charts-row">
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-fire"></i> 热门标签 Top10</h3>
+                        </div>
+                        <canvas id="tagHotChart" height="320"></canvas>
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-snowflake"></i> 冷门标签 Top10</h3>
+                        </div>
+                        <canvas id="tagColdChart" height="320"></canvas>
+                    </div>
+                </div>
+
+                <div class="charts-row">
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-grip-lines"></i> 共现热力图</h3>
+                            <small class="sub-text">Top 共现对，颜色和大小均代表共现次数</small>
+                        </div>
+                        <canvas id="tagHeatmap" height="340"></canvas>
+                    </div>
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-wave-square"></i> 共现趋势折线</h3>
+                            <small class="sub-text">按共现次数排序的前列标签对</small>
+                        </div>
+                        <canvas id="tagLineTrend" height="340"></canvas>
+                    </div>
+                </div>
+
+                <div class="charts-row">
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-burn"></i> 热门标签 Top</h3>
+                        </div>
+                        <div class="data-table-container compact">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>标签</th>
+                                        <th>出现次数</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tagHotBody">
+                                    <tr><td colspan="2" class="loading">加载中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-card-header">
+                            <h3><i class="fas fa-snowflake"></i> 冷门标签 Top</h3>
+                        </div>
+                        <div class="data-table-container compact">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>标签</th>
+                                        <th>出现次数</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tagColdBody">
+                                    <tr><td colspan="2" class="loading">加载中...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3><i class="fas fa-link"></i> 标签共现 Top</h3>
+                    <div class="data-table-container compact">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>标签对</th>
+                                    <th>共现次数</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tagCoBody">
+                                <tr><td colspan="2" class="loading">加载中...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <h2><i class="fas fa-list"></i> 标签命中详情</h2>
+                </div>
+
+                <div class="data-table-container">
+                    <table class="data-table" id="tagResultTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>标题</th>
+                                <th>语言</th>
+                                <th>总命中</th>
+                                <th>更新时间</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tagResultBody">
+                            <tr><td colspan="6" class="loading">正在加载...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pagination" id="tagResultPagination"></div>
+            </div>
+
+            <!-- 数据大屏 -->
+            <div id="dashboard-tab" class="tab-content" style="width: 100%; height: 100vh; padding: 0; margin: 0;">
+                <iframe src="{{ url_for('static', filename='dashboard.html') }}"
+                        frameborder="0"
+                        style="width: 100%; height: 100%; border: none;">
+                </iframe>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- 详情模态框 -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">详细信息</h2>
+                <button class="modal-close" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- 动态内容 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

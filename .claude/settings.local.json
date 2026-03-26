@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python app.py:*)",
+      "Bash(timeout:*)",
+      "Bash(curl:*)",
+      "Bash(ping:*)",
+      "Bash(xcopy:*)",
+      "Bash(robocopy:*)",
+      "Bash(if not exist \"c:\\\\Users\\\\张飞\\\\Desktop\\\\警撒哨界面简洁版\\\\系统界面\\\\static\\\\images\" mkdir \"c:\\\\Users\\\\张飞\\\\Desktop\\\\警撒哨界面简洁版\\\\系统界面\\\\static\\\\images\")",
+      "Bash(copy /Y \"c:\\\\Users\\\\张飞\\\\Desktop\\\\警撒哨界面简洁版\\\\5\\\\images\\\\*\" \"c:\\\\Users\\\\张飞\\\\Desktop\\\\警撒哨界面简洁版\\\\系统界面\\\\static\\\\images\"\")",
+      "Bash(cmd /c \"if not exist static\\\\images mkdir static\\\\images && copy /Y ..\\\\5\\\\images\\\\* static\\\\images\"\")",
+      "Bash(cmd /c:*)",
+      "Bash(python copy_images.py:*)",
+      "Bash(python:*)",
+      "Bash(dir /b)",
+      "Bash(find c:Users张飞Desktop警撒哨界面简洁版 -type f \\\\\\(-name *.db -o -name *.sqlite -o -name *.json -o -name *.csv -o -name *.sql \\\\\\) --exclude-dir=node_modules)"
+    ]
+  }
+}

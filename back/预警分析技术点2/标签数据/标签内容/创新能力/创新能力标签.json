@@ -1,0 +1,506 @@
+{
+    "专业知识能力": {
+        "zh": [
+            "专业知识能力", "掌握专业知识", "运用专业知识", "积累专业知识", "专业知识水平", "专业素养", "知识储备", "知识渊博", "专业过硬", "懂行", "内行", "专家水平", "有专业背景", "专业能力强", "知识丰富", "精通业务", "行业知识深厚"
+        ],
+        "en": [
+            "professional knowledge ability", "have professional knowledge", "apply expertise", "accumulate knowledge", "level of expertise", "professionalism", "knowledge reserve", "knowledgeable", "expert in the field", "professional competence", "strong knowledge base", "well-versed in the subject", "specialized knowledge", "know-how", "subject matter expert", "deep understanding"
+        ]
+    },
+    "设计理论知识": {
+        "zh": [
+            "设计理论知识", "掌握设计理论", "应用设计原理", "设计理论水平", "设计素养", "理论功底", "懂设计理论", "设计知识丰富", "理论扎实", "设计方法论知识", "设计基础好", "会设计理论", "设计理论强"
+        ],
+        "en": [
+            "design theory knowledge", "knowledge of design theory", "apply design principles", "theoretical foundation in design", "design literacy", "theoretical knowledge", "understand design theory", "well-versed in design theory", "solid design theory", "design methodology knowledge", "good design basics", "strong in design theory", "design theory skills"
+        ]
+    },
+    "新兴技术知识": {
+        "zh": [
+            "新兴技术知识", "了解新技术", "掌握前沿科技", "新兴技术水平", "科技知识更新", "懂高科技", "技术敏感度", "跟进技术趋势", "技术知识丰富", "新技术学习能力", "科技前沿", "技术达人"
+        ],
+        "en": [
+            "emerging technology knowledge", "know new technologies", "master cutting-edge tech", "level of emerging tech", "tech knowledge update", "understand high-tech", "technology sensitivity", "follow tech trends", "rich tech knowledge", "ability to learn new tech", "tech frontier", "tech savvy"
+        ]
+    },
+    "跨领域艺术知识": {
+        "zh": [
+            "跨领域艺术知识", "懂多领域艺术", "艺术跨界知识", "跨学科艺术素养", "艺术知识广泛", "会多种艺术形式", "艺术融合能力", "跨界艺术理解", "艺术知识整合", "多艺术门类知识", "艺术通才"
+        ],
+        "en": [
+            "cross-disciplinary art knowledge", "know multiple art fields", "interdisciplinary art knowledge", "art literacy across fields", "broad art knowledge", "skilled in various art forms", "art integration ability", "understand跨界 art", "integrate art knowledge", "knowledge of multiple art types", "art generalist"
+        ]
+    },
+    "创新思维能力": {
+        "zh": [
+            "创新思维能力", "创新思维", "思考创新", "创造性思考", "思维新颖", "想法独特", "脑洞大", "思路开阔", "创新思考方式", "思维灵活", "创意思维", "想出新点子", "思维创新性强"
+        ],
+        "en": [
+            "innovative thinking ability", "innovative thinking", "think creatively", "creative thought", "novel thinking", "unique ideas", "big ideas", "open-minded thinking", "innovative way of thinking", "flexible thinking", "creative mindset", "come up with new ideas", "strong innovative thinking"
+        ]
+    },
+    "分析创造力模式": {
+        "zh": [
+            "分析创造力模式", "分析创意模式", "创造力分析", "创意模式识别", "分析创新方式", "创造力规律分析", "模式化创意", "分析创作过程", "创意分析方法", "理解创造模式", "创造力解码"
+        ],
+        "en": [
+            "analytical creativity模式", "analyze creative patterns", "creativity analysis", "pattern recognition in creativity", "analyze innovation methods", "analysis of creativity rules", "patterned creativity", "analyze creative process", "creative analysis methods", "understand creation patterns", "decode creativity"
+        ]
+    },
+    "思辨能力": {
+        "zh": [
+            "思辨能力", "批判性思考", "逻辑思辨", "辩证思维", "思考深度", "理性分析", "思辨性强", "会辩论", "思考周密", "思维严谨", "反思能力", "思辨清晰"
+        ],
+        "en": [
+            "critical thinking ability", "critical thinking", "logical reasoning", "dialectical thinking", "depth of thought", "rational analysis", "strong critical thinking", "good at debate", "thorough thinking", "rigorous thinking", "reflection ability", "clear reasoning"
+        ]
+    },
+    "问题敏感性": {
+        "zh": [
+            "问题敏感性", "敏感发现问题", "问题意识强", "察觉问题", "问题嗅觉", "易发现问题", "问题感知", "对问题敏感", "问题识别能力", "早发现问题", "问题警觉性"
+        ],
+        "en": [
+            "problem sensitivity", "sensitive to problems", "strong problem awareness", "detect issues", "problem嗅觉", "easily find problems", "problem perception", "sensitive to issues", "problem identification ability", "early problem detection", "problem alertness"
+        ]
+    },
+    "创新工作行为": {
+        "zh": [
+            "创新工作行为", "工作创新", "创新工作方式", "工作中创新", "行为创新", "工作方法新颖", "创新行动", "工作创意", "改进工作流程", "创新实践", "工作变革"
+        ],
+        "en": [
+            "innovative work behavior", "work innovation", "innovative work methods", "innovate at work", "behavioral innovation", "novel work approaches", "innovative actions", "work creativity", "improve work processes", "innovation practice", "work transformation"
+        ]
+    },
+    "内创业能力": {
+        "zh": [
+            "内创业能力", "内部创业", "公司内创新", "内创精神", "企业内部创业", "内创业行为", "创新内部项目", "内创业动力", "公司内开拓", "内创业 initiative"
+        ],
+        "en": [
+            "intrapreneurship ability", "intrapreneurship", "internal innovation", "intrapreneurial spirit", "corporate entrepreneurship", "intrapreneurial behavior", "innovative internal projects", "intrapreneurial drive", "internal开拓", "intrapreneurship initiative"
+        ]
+    },
+    "想法倡导能力": {
+        "zh": [
+            "想法倡导能力", "倡导想法", "推广创意", "说服他人接受想法", "想法推销", "倡导创新", "推动想法落地", "想法宣传", "获得支持 for ideas", "倡导力强"
+        ],
+        "en": [
+            "idea advocacy ability", "advocate for ideas", "promote creativity", "persuade others to accept ideas", "sell ideas", "advocate innovation", "push ideas to implementation", "idea promotion", "gain support for ideas", "strong advocacy"
+        ]
+    },
+    "执行能力": {
+        "zh": [
+            "执行能力", "执行力", "落实行动", "完成任务", "执行到位", "行动力强", "高效执行", "实现目标", "动手能力", "执行效率", "说到做到"
+        ],
+        "en": [
+            "execution ability", "execution power", "take action", "complete tasks", "execute well", "strong action ability", "efficient execution", "achieve goals", "hands-on ability", "execution efficiency", "walk the talk"
+        ]
+    },
+    "团队协作创造力模式": {
+        "zh": [
+            "团队协作创造力模式", "团队创意合作", "协作创新模式", "团队创造力", "集体创意", "合作创新", "团队脑暴", "协作创作", "团队创新方式", "合力创意"
+        ],
+        "en": [
+            "team collaboration creativity模式", "team creative cooperation", "collaborative innovation模式", "team creativity", "collective creativity", "cooperative innovation", "team brainstorming", "collaborative creation", "team innovation methods", "joint creativity"
+        ]
+    },
+    "多学科协作能力": {
+        "zh": [
+            "多学科协作能力", "跨学科合作", "多领域协作", "学科间合作", "团队多元合作", "跨专业协作", "多背景团队工作", "协作跨领域", "整合多学科", "合作多样性"
+        ],
+        "en": [
+            "multidisciplinary collaboration ability", "cross-disciplinary cooperation", "multi-field collaboration", "interdisciplinary合作", "diverse team合作", "cross-professional collaboration", "work in multi-background teams", "collaborate across fields", "integrate multiple disciplines", "diverse cooperation"
+        ]
+    },
+    "团队气候营造能力": {
+        "zh": [
+            "团队气候营造能力", "营造团队氛围", "团队环境建设", "创造好团队气氛", "团队文化营造", "氛围管理", "团队士气提升", "打造积极团队", "气候培养", "团队凝聚力建设"
+        ],
+        "en": [
+            "team climate building ability", "build team atmosphere", "team environment construction", "create good team vibe", "team culture building", "atmosphere management", "boost team morale", "build positive team", "climate cultivation", "team cohesion building"
+        ]
+    },
+    "创意冲突处理能力": {
+        "zh": [
+            "创意冲突处理能力", "处理创意分歧", "解决创新冲突", "创意争议管理", "冲突调解", "化解创意矛盾", "创意辩论处理", "冲突解决能力", "创意摩擦处理", "和平解决冲突"
+        ],
+        "en": [
+            "creative conflict handling ability", "handle creative disagreements", "resolve innovation conflicts", "manage creative disputes", "conflict mediation", "resolve creative tensions", "handle creative debates", "conflict resolution ability", "deal with creative friction", "peaceful conflict resolution"
+        ]
+    },
+    "参与式领导力": {
+        "zh": [
+            "参与式领导力", "参与领导", "民主领导", "团队参与管理", "领导中参与", "共享领导", "参与决策", "领导风格参与", "激励团队参与", "协作领导"
+        ],
+        "en": [
+            "participative leadership", "participatory leadership", "democratic leadership", "team参与 management", "lead with participation", "shared leadership", "participate in decision-making", "participative leadership style", "motivate team participation", "collaborative leadership"
+        ]
+    },
+    "设计师角色适应能力": {
+        "zh": [
+            "设计师角色适应能力", "适应设计角色", "设计师角色转换", "角色适应性强", "设计岗位适应", "快速融入设计角色", "角色灵活性", "设计职责适应", "多角色设计工作", "角色调整能力"
+        ],
+        "en": [
+            "designer role adaptation ability", "adapt to designer role", "designer role transition", "strong role adaptability", "adapt to design position", "quickly fit into designer role", "role flexibility", "adapt to design responsibilities", "multi-role design work", "role adjustment ability"
+        ]
+    },
+    "角色差异协调": {
+        "zh": [
+            "角色差异协调", "协调角色差异", "处理角色冲突", "角色间协调", "差异管理", "角色平衡", "协调不同角色", "角色整合", "化解角色矛盾", "角色协作"
+        ],
+        "en": [
+            "role difference coordination", "coordinate role differences", "handle role conflicts", "inter-role coordination", "difference management", "role balance", "coordinate different roles", "role integration", "resolve role tensions", "role collaboration"
+        ]
+    },
+    "外部工作联系": {
+        "zh": [
+            "外部工作联系", "外部联系", "对外合作", "外部关系维护", "与外部门协作", "外部沟通", "联系外部资源", "外部网络建设", "跨界合作", "外部伙伴关系"
+        ],
+        "en": [
+            "external work connections", "external links", "external cooperation", "maintain external relationships", "collaborate with external departments", "external communication", "connect external resources", "external network building", "cross-boundary cooperation", "external partnerships"
+        ]
+    },
+    "团队多样性管理能力": {
+        "zh": [
+            "团队多样性管理能力", "管理多元团队", "多样性处理", "团队差异管理", "包容性领导", "多元文化团队管理", "处理多样性", "多样性利用", "团队多元性协调", "多样性促进"
+        ],
+        "en": [
+            "team diversity management ability", "manage diverse teams", "handle diversity", "team difference management", "inclusive leadership", "manage multicultural teams", "deal with diversity", "leverage diversity", "coordinate team diversity", "promote diversity"
+        ]
+    },
+    "跨文化创造力": {
+        "zh": [
+            "跨文化创造力", "跨文化创新", "文化融合创意", "多文化背景创意", "跨文化思维", "文化多样性创意", "国际视野创意", "文化交叉创新", "跨文化合作创意", "文化灵感"
+        ],
+        "en": [
+            "cross-cultural creativity", "cross-cultural innovation", "cultural fusion creativity", "multicultural background creativity", "cross-cultural thinking", "cultural diversity creativity", "international perspective creativity", "cultural交叉 innovation", "cross-cultural合作 creativity", "cultural inspiration"
+        ]
+    },
+    "思维风格整合能力": {
+        "zh": [
+            "思维风格整合能力", "整合不同思维", "思维风格融合", "多思维方式整合", "思维多样性管理", "风格协调", "思维整合", "融合不同思路", "思维模式整合", "风格适应"
+        ],
+        "en": [
+            "thinking style integration ability", "integrate different thinking", "blend thinking styles", "integrate multiple thinking ways", "manage thinking diversity", "style coordination", "thinking integration", "fuse different思路", "integrate thinking patterns", "style adaptation"
+        ]
+    },
+    "企业文化培育能力": {
+        "zh": [
+            "企业文化培育能力", "培养企业文化", "文化建设", "企业氛围营造", "文化培育", "公司文化发展", "文化价值观传递", "文化氛围管理", "企业文化塑造", "文化传承"
+        ],
+        "en": [
+            "corporate culture cultivation ability", "cultivate corporate culture", "culture building", "corporate atmosphere creation", "culture cultivation", "company culture development", "transmit cultural values", "culture atmosphere management", "shape corporate culture", "culture inheritance"
+        ]
+    },
+    "创新准备度": {
+        "zh": [
+            "创新准备度", "创新准备", "准备好创新", "创新 readiness", "创新条件具备", "创新基础", "准备创新", "创新态势", "创新 readiness level", "创新 preparedness"
+        ],
+        "en": [
+            "innovation readiness", "prepared for innovation", "ready to innovate", "innovation readiness", "conditions for innovation", "innovation foundation", "prepare for innovation", "innovation posture", "innovation readiness level", "innovation preparedness"
+        ]
+    },
+    "心理契约维护": {
+        "zh": [
+            "心理契约维护", "维护心理契约", "心理合同管理", "员工心理维护", "心理承诺保持", "心理纽带维护", "心理契约建设", "信任维护", "心理安全维护", "契约精神"
+        ],
+        "en": [
+            "psychological contract maintenance", "maintain psychological contract", "manage psychological contract", "employee psychological maintenance", "keep psychological commitment", "maintain psychological bond", "build psychological contract", "trust maintenance", "maintain psychological safety", "contract spirit"
+        ]
+    },
+    "工作自主性支持": {
+        "zh": [
+            "工作自主性支持", "支持工作自主", "自主性鼓励", "给予自主权", "支持独立性", "自主工作环境", "授权员工", "自主决策支持", "自由工作空间", "自主性培养"
+        ],
+        "en": [
+            "work autonomy support", "support work autonomy", "encourage autonomy", "give autonomy", "support independence", "autonomous work environment", "empower employees", "support autonomous decision-making", "free work space", "autonomy cultivation"
+        ]
+    },
+    "创新流程管理能力": {
+        "zh": [
+            "创新流程管理能力", "管理创新流程", "流程优化", "创新过程控制", "流程管理", "创新项目管理", "流程改进", "流程设计", "创新流程协调", "流程效率提升"
+        ],
+        "en": [
+            "innovation process management ability", "manage innovation processes", "process optimization", "control innovation process", "process management", "innovation project management", "process improvement", "process design", "coordinate innovation processes", "improve process efficiency"
+        ]
+    },
+    "方法论应用能力": {
+        "zh": [
+            "方法论应用能力", "应用方法论", "方法使用", "方法论实践", "方法工具应用", "方法论掌握", "方法应用熟练", "方法论指导", "方法选择能力", "方法论创新"
+        ],
+        "en": [
+            "methodology application ability", "apply methodology", "use methods", "methodology practice", "apply method tools", "master methodology", "skilled in method application", "methodology guidance", "ability to choose methods", "methodology innovation"
+        ]
+    },
+    "设计冲刺应用": {
+        "zh": [
+            "设计冲刺应用", "应用设计冲刺", "设计冲刺方法", "冲刺实践", "快速设计迭代", "设计冲刺执行", "冲刺流程", "设计冲刺工具", "冲刺团队合作", "冲刺成果"
+        ],
+        "en": [
+            "design sprint application", "apply design sprint", "design sprint method", "sprint practice", "rapid design iteration", "execute design sprint", "sprint process", "design sprint tools", "sprint team collaboration", "sprint outcomes"
+        ]
+    },
+    "可持续设计整合能力": {
+        "zh": [
+            "可持续设计整合能力", "整合可持续设计", "可持续性融入设计", "环保设计整合", "可持续发展设计", "绿色设计应用", "可持续元素整合", "设计可持续性", "环保理念设计", "可持续创新"
+        ],
+        "en": [
+            "sustainable design integration ability", "integrate sustainable design", "incorporate sustainability into design", "eco-design integration", "sustainable development design", "apply green design", "integrate sustainable elements", "design sustainability", "eco-concept design", "sustainable innovation"
+        ]
+    },
+    "政府政策支持能力": {
+        "zh": [
+            "政府政策支持能力", "获得政策支持", "政策利用", "政府关系维护", "政策申请能力", "政策解读", "政策适应", "政府资源获取", "政策合规", "政策创新利用"
+        ],
+        "en": [
+            "government policy support ability", "gain policy support", "leverage policies", "maintain government relations", "ability to apply for policies", "policy interpretation", "adapt to policies", "access government resources", "policy compliance", "innovative use of policies"
+        ]
+    },
+    "教育培养能力": {
+        "zh": [
+            "教育培养能力", "培养教育", "教育培训", "教育发展", "培养人才", "教育方法应用", "学习促进", "教育创新", "培养能力建设", "教育资源共享"
+        ],
+        "en": [
+            "education cultivation ability", "cultivate education", "education training", "education development", "talent cultivation", "apply educational methods", "promote learning", "education innovation", "build cultivation capacity", "share educational resources"
+        ]
+    },
+    "产教融合能力": {
+        "zh": [
+            "产教融合能力", "产业教育融合", "产教合作", "教育与产业结合", "产教整合", "校企合作", "实践与理论融合", "产教协同", "融合能力", "产教互动"
+        ],
+        "en": [
+            "industry-education integration ability", "integrate industry and education", "industry-education cooperation", "combine education and industry", "industry-education integration", "school-enterprise合作", "fuse practice and theory", "industry-education synergy", "integration ability", "industry-education interaction"
+        ]
+    },
+    "经济效益评估能力": {
+        "zh": [
+            "经济效益评估能力", "评估经济效益", "经济收益分析", "成本效益评估", "经济价值判断", "财务效益评估", "经济 impact 评估", "盈利分析", "经济可行性评估", "效益测算"
+        ],
+        "en": [
+            "economic benefit evaluation ability", "evaluate economic benefits", "analyze economic returns", "cost-benefit assessment", "judge economic value", "financial benefit evaluation", "assess economic impact", "profit analysis", "economic feasibility assessment", "benefit calculation"
+        ]
+    },
+    "用户洞察能力": {
+        "zh": [
+            "用户洞察能力", "洞察用户需求", "理解用户", "用户行为分析", "用户心理把握", "用户研究", "用户视角", "洞察力强", "用户痛点识别", "用户反馈分析"
+        ],
+        "en": [
+            "user insight ability", "insight into user needs", "understand users", "analyze user behavior", "grasp user psychology", "user research", "user perspective", "strong insight", "identify user pain points", "analyze user feedback"
+        ]
+    },
+    "问题理解能力": {
+        "zh": [
+            "问题理解能力", "理解问题", "问题分析", "把握问题本质", "问题深度理解", "问题解读", "理解核心问题", "问题梳理", "问题认知", "理解力强"
+        ],
+        "en": [
+            "problem understanding ability", "understand problems", "problem analysis", "grasp the essence of problems", "deep problem understanding", "problem interpretation", "understand core issues", "problem梳理", "problem cognition", "strong understanding"
+        ]
+    },
+    "实地调研能力": {
+        "zh": [
+            "实地调研能力", "进行实地调研", "现场调查", "实地考察", "调研执行", "现场数据收集", "实地研究", "调研方法应用", "实地访问", "调研分析"
+        ],
+        "en": [
+            "field research ability", "conduct field research", "on-site investigation", "field survey", "execute research", "collect field data", "field study", "apply research methods", "field visits", "research analysis"
+        ]
+    },
+    "行业洞察能力": {
+        "zh": [
+            "行业洞察能力", "洞察行业趋势", "行业分析", "理解行业动态", "行业知识应用", "行业 foresight", "行业洞察力", "行业研究", "行业趋势把握", "行业敏感度"
+        ],
+        "en": [
+            "industry insight ability", "insight into industry trends", "industry analysis", "understand industry dynamics", "apply industry knowledge", "industry foresight", "industry insight", "industry research", "grasp industry trends", "industry sensitivity"
+        ]
+    },
+    "创新生成": {
+        "zh": [
+            "创新生成", "生成创新", "产生新想法", "创意生成", "创新产生", "想法创造", "创新构思", "生成新方案", "创意涌现", "创新点子产生"
+        ],
+        "en": [
+            "innovation generation", "generate innovation", "produce new ideas", "creative generation", "innovation production", "idea creation", "innovative conception", "generate new solutions", "creativity emergence", "produce innovative ideas"
+        ]
+    },
+    "想法实施能力": {
+        "zh": [
+            "想法实施能力", "实施想法", "将想法落地", "执行创意", "想法实现", "落实创意", "实施计划", "动手实现", "想法转化", "实践能力"
+        ],
+        "en": [
+            "idea implementation ability", "implement ideas", "put ideas into action", "execute creativity", "realize ideas", "implement creativity", "carry out plans", "hands-on realization", "idea transformation", "practical ability"
+        ]
+    },
+    "功能合成能力": {
+        "zh": [
+            "功能合成能力", "合成功能", "功能整合", "多功能结合", "功能融合", "合成能力", "功能优化", "功能设计", "功能协调", "功能创新"
+        ],
+        "en": [
+            "function synthesis ability", "synthesize functions", "integrate functions", "combine multiple functions", "function fusion", "synthesis ability", "function optimization", "function design", "function coordination", "function innovation"
+        ]
+    },
+    "服务原型能力": {
+        "zh": [
+            "服务原型能力", "创建服务原型", "原型设计", "服务模型制作", "原型开发", "服务原型测试", "原型构建", "服务模拟", "原型迭代", "服务原型优化"
+        ],
+        "en": [
+            "service prototyping ability", "create service prototypes", "prototype design", "make service models", "prototype development", "test service prototypes", "prototype building", "service simulation", "prototype iteration", "optimize service prototypes"
+        ]
+    },
+    "测试与验证能力": {
+        "zh": [
+            "测试与验证能力", "进行测试", "验证想法", "测试执行", "验证效果", "测试方法应用", "验证可靠性", "测试分析", "验证流程", "测试优化"
+        ],
+        "en": [
+            "testing and validation ability", "conduct tests", "validate ideas", "execute testing", "verify effects", "apply testing methods", "validate reliability", "test analysis", "validation process", "optimize testing"
+        ]
+    },
+    "实验与测试能力": {
+        "zh": [
+            "实验与测试能力", "进行实验", "测试验证", "实验设计", "测试执行", "实验分析", "测试方法", "实验迭代", "测试可靠性", "实验创新"
+        ],
+        "en": [
+            "experimentation and testing ability", "conduct experiments", "test and verify", "experiment design", "execute tests", "experiment analysis", "testing methods", "experiment iteration", "test reliability", "experimental innovation"
+        ]
+    },
+    "迭代设计能力": {
+        "zh": [
+            "迭代设计能力", "迭代设计", "设计改进", "多次优化", "循环设计", "迭代开发", "设计版本更新", "持续改进", "迭代优化", "设计迭代过程"
+        ],
+        "en": [
+            "iterative design ability", "iterative design", "design improvement", "multiple optimizations", "cyclic design", "iterative development", "design version updates", "continuous improvement", "iterative optimization", "design iteration process"
+        ]
+    },
+    "模糊评价能力": {
+        "zh": [
+            "模糊评价能力", "进行模糊评价", "评价不确定性", "模糊判断", "评价复杂性处理", "模糊分析", "评价主观性管理", "模糊决策", "评价灵活性", "模糊情境评估"
+        ],
+        "en": [
+            "fuzzy evaluation ability", "conduct fuzzy evaluation", "evaluate uncertainty", "fuzzy judgment", "handle evaluation complexity", "fuzzy analysis", "manage evaluation subjectivity", "fuzzy decision-making", "evaluation flexibility", "assess模糊 situations"
+        ]
+    },
+    "创意推广能力": {
+        "zh": [
+            "创意推广能力", "推广创意", "宣传新想法", "创意营销", "推广创新", "创意传播", "获得认可", "推广策略", "创意影响力", "推广效果"
+        ],
+        "en": [
+            "creative promotion ability", "promote creativity", "publicize new ideas", "creative marketing", "promote innovation", "creative communication", "gain recognition", "promotion strategy", "creative influence", "promotion效果"
+        ]
+    },
+    "创意实现能力": {
+        "zh": [
+            "创意实现能力", "实现创意", "将创意变成现实", "创意落地", "实现创新", "创意执行", "成果转化", "实践创意", "实现能力", "创意成果"
+        ],
+        "en": [
+            "creative realization ability", "realize creativity", "turn ideas into reality", "implement creativity", "achieve innovation", "execute creativity", "outcome transformation", "practice creativity", "realization ability", "creative outcomes"
+        ]
+    },
+    "创新输出": {
+        "zh": [
+            "创新输出", "输出创新", "产生成果", "创新成果", "输出新东西", "创新产出", "成果生成", "输出能力", "创新产品", "输出价值"
+        ],
+        "en": [
+            "innovation output", "output innovation", "produce outcomes", "innovation outcomes", "output new things", "innovation production", "outcome generation", "output ability", "innovative products", "output value"
+        ]
+    },
+    "创意品牌建设能力": {
+        "zh": [
+            "创意品牌建设能力", "建设创意品牌", "品牌创意", "品牌建设", "创意品牌推广", "品牌价值提升", "品牌形象设计", "品牌创新", "品牌管理", "品牌影响力"
+        ],
+        "en": [
+            "creative brand building ability", "build creative brands", "brand creativity", "brand building", "promote creative brands", "enhance brand value", "brand image design", "brand innovation", "brand management", "brand influence"
+        ]
+    },
+    "实用性": {
+        "zh": [
+            "实用性", "实用性强", "实际有用", "应用价值高", "好用", "实用功能", "实际效果", "实用主义", "便于使用", "实用度"
+        ],
+        "en": [
+            "practicality", "high practicality", "actually useful", "high application value", "easy to use", "practical functions", "actual effects", "pragmatism", "user-friendly", "level of practicality"
+        ]
+    },
+    "价值性": {
+        "zh": [
+            "价值性", "有价值", "价值高", "意义重大", "价值体现", "价值创造", "价值评估", "核心价值", "价值提升", "价值性 strong"
+        ],
+        "en": [
+            "value", "valuable", "high value", "significant meaning", "value体现", "value creation", "value assessment", "core value", "value enhancement", "strong value"
+        ]
+    },
+    "有效性": {
+        "zh": [
+            "有效性", "有效果", "效率高", "有效性强", "见效快", "有效方法", "效果明显", "有效实施", "有效性评估", "有效度"
+        ],
+        "en": [
+            "effectiveness", "effective", "high efficiency", "strong effectiveness", "fast results", "effective methods", "obvious effects", "effective implementation", "effectiveness evaluation", "level of effectiveness"
+        ]
+    },
+    "可推广性": {
+        "zh": [
+            "可推广性", "易于推广", "可复制", "推广容易", "可扩展", "推广潜力", "可传播性", "推广友好", "可推广度", "推广价值"
+        ],
+        "en": [
+            "scalability", "easy to promote", "replicable", "easy to推广", "scalable", "promotion potential", "communicability", "promotion-friendly", "level of scalability", "promotion value"
+        ]
+    },
+    "新颖性": {
+        "zh": [
+            "新颖性", "新颖", "创新性强", "新奇", "独特", "前所未有", "新鲜感", "新颖度", "创新点", "新颖想法"
+        ],
+        "en": [
+            "novelty", "novel", "high innovation", "new and unusual", "unique", "unprecedented", "freshness", "level of novelty", "innovation points", "novel ideas"
+        ]
+    },
+    "变通性": {
+        "zh": [
+            "变通性", "灵活变通", "适应性强的", "可变通", "弹性", "调整能力", "变通思维", "灵活度", "变通处理", "变通性强"
+        ],
+        "en": [
+            "flexibility", "flexible adaptation", "highly adaptable", "adjustable", "elasticity", "adjustment ability", "flexible thinking", "level of flexibility", "handle with flexibility", "strong flexibility"
+        ]
+    },
+    "吸引力": {
+        "zh": [
+            "吸引力", "吸引人", "有魅力", "引人注目", "吸引力强", "吸引眼球", "魅力值", "吸引度", "吸引效果", "吸引能力"
+        ],
+        "en": [
+            "attractiveness", "attractive", "charming", "eye-catching", "strong吸引力", "catch attention", "charm value", "level of attractiveness", "attraction effects", "attraction ability"
+        ]
+    },
+    "可信度": {
+        "zh": [
+            "可信度", "可信", "可靠性高", "信任感", "可信性强", "可靠", "可信赖", "可信度评估", "信任度", "可信水平"
+        ],
+        "en": [
+            "credibility", "credible", "high reliability", "sense of trust", "strong credibility", "reliable", "trustworthy", "credibility evaluation", "level of trust", "credibility level"
+        ]
+    },
+    "社会效益评估能力": {
+        "zh": [
+            "社会效益评估能力", "评估社会效益", "社会影响分析", "社会价值判断", "社会收益评估", "社会 impact 评估", "社会责任评估", "社会效益测算", "社会贡献评估", "社会效益管理"
+        ],
+        "en": [
+            "social benefit evaluation ability", "evaluate social benefits", "analyze social impact", "judge social value", "assess social returns", "evaluate social impact", "assess social responsibility", "calculate social benefits", "evaluate social contribution", "manage social benefits"
+        ]
+    },
+    "环境效益能力": {
+        "zh": [
+            "环境效益能力", "评估环境效益", "环保效果", "环境 impact 评估", "绿色收益", "环境价值", "环保贡献", "环境效益分析", "可持续发展评估", "环境友好性"
+        ],
+        "en": [
+            "environmental benefit ability", "evaluate environmental benefits", "eco-effects", "assess environmental impact", "green returns", "environmental value", "eco-contribution", "environmental benefit analysis", "sustainable development assessment", "environmental friendliness"
+        ]
+    },
+    "用户体验关注": {
+        "zh": [
+            "用户体验关注", "关注用户体验", "用户感受重视", "用户体验优化", "用户满意度", "用户体验设计", "用户反馈关注", "用户体验提升", "用户中心思维", "体验导向"
+        ],
+        "en": [
+            "user experience focus", "focus on user experience", "value user feelings", "optimize user experience", "user satisfaction", "user experience design", "pay attention to user feedback", "enhance user experience", "user-centric thinking", "experience-oriented"
+        ]
+    },
+    "文化价值能力": {
+        "zh": [
+            "文化价值能力", "评估文化价值", "文化意义", "文化 impact", "文化传承价值", "文化创新价值", "文化多样性价值", "文化价值判断", "文化效益", "文化价值提升"
+        ],
+        "en": [
+            "cultural value ability", "evaluate cultural value", "cultural significance", "cultural impact", "cultural inheritance value", "cultural innovation value", "cultural diversity value", "judge cultural value", "cultural benefits", "enhance cultural value"
+        ]
+    }
+}
