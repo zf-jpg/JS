@@ -16,6 +16,19 @@ from collections import defaultdict, Counter
 # 报错信息：'usedforsecurity' is an invalid keyword argument for openssl_md5()
 # 先行兼容：吞掉该参数，保证 reportlab 等库正常生成 PDF
 #
+app = Flask(__name__)
+CORS(app)
+
+# 测试接口
+@app.route('/')
+def hello():
+    return {"code": 200, "msg": "后端部署成功！"}
+
+# 核心：监听环境变量端口
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
+
 _orig_md5 = hashlib.md5
 
 
