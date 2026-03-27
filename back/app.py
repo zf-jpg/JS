@@ -1,21 +1,17 @@
 ﻿from flask import Flask, jsonify, render_template, request, send_file
 from flask_cors import CORS
-import pyodbc
+# import pyodbc  ← 这一行必须删掉！！！
 import json
-import subprocess
-import sys
+# import subprocess  ← 暂时也删掉
+# import sys
 import os
 import io
 import hashlib
 import re
 from datetime import datetime, timedelta
-import threading
-from collections import defaultdict, Counter
-#
-# 部分环境的 OpenSSL 后端不支持 hashlib.md5(..., usedforsecurity=False)
-# 报错信息：'usedforsecurity' is an invalid keyword argument for openssl_md5()
-# 先行兼容：吞掉该参数，保证 reportlab 等库正常生成 PDF
-#
+# import threading
+# from collections import defaultdict, Counter
+
 app = Flask(__name__)
 CORS(app)
 
