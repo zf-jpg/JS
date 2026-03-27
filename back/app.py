@@ -1,17 +1,19 @@
-﻿from flask import Flask, jsonify, render_template, request, send_file
-import threading  # 必须加！
+﻿from flask import Flask
 from flask_cors import CORS
-# import pyodbc  ← 这一行必须删掉！！！
-import json
-# import subprocess  ← 暂时也删掉
-# import sys
 import os
-import io
-import hashlib
-import re
-from datetime import datetime, timedelta
-# import threading
-# from collections import defaultdict, Counter
+
+app = Flask(__name__)
+CORS(app)
+
+# 仅保留测试接口
+@app.route("/")
+def index():
+    return "✅ 后端部署成功！正常运行！"
+
+# 自动监听端口
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
 
 app = Flask(__name__)
 CORS(app)
