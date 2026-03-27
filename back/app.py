@@ -1,4 +1,5 @@
 ﻿from flask import Flask, jsonify, render_template, request, send_file
+import threading  # 必须加！
 from flask_cors import CORS
 # import pyodbc  ← 这一行必须删掉！！！
 import json
